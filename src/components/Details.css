@@ -1,0 +1,116 @@
+.column,
+.item1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.item1 {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 357px;
+  width: 600px;
+  outline: 0;
+  border-radius: var(--br-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-143xl) var(--padding-139xl);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-2xl);
+  color: var(--color-dimgray-100);
+  z-index: 1;
+}
+.column {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.what-our-clients {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.details,
+.grid,
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+}
+.testimonials {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-352xl);
+  font-size: var(--font-size-11xl);
+}
+.details,
+.grid {
+  max-width: 100%;
+}
+.grid {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-69xl);
+  min-width: 574px;
+}
+.details {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-116xl);
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .details {
+    gap: var(--gap-48xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .column {
+    flex-wrap: wrap;
+  }
+  .grid {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .what-our-clients {
+    font-size: var(--font-size-5xl);
+    line-height: 25px;
+  }
+  .testimonials {
+    padding-left: var(--padding-166xl);
+    box-sizing: border-box;
+  }
+  .grid {
+    min-width: 100%;
+  }
+  .details {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .what-our-clients {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .testimonials {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .grid {
+    gap: var(--gap-3xl);
+  }
+  .details {
+    gap: var(--gap-mid);
+  }
+}

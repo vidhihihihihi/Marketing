@@ -1,0 +1,24 @@
+.service-cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-42xl-1);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--content-contentprimary);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .service-cards {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .service-cards {
+    gap: var(--gap-mini);
+  }
+}

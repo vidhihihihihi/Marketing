@@ -1,0 +1,131 @@
+.icon,
+.usp {
+  position: relative;
+}
+.icon {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+}
+.usp {
+  line-height: 32px;
+  display: inline-block;
+  min-width: 43px;
+}
+.container2,
+.highlight {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container2 {
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.highlight {
+  flex-direction: row;
+  gap: var(--gap-2xl);
+}
+.highlight,
+.list,
+.list-child {
+  align-self: stretch;
+  flex: 1;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.list-child {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+}
+.usp1 {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 43px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+}
+.list-item,
+.list1 {
+  align-self: stretch;
+  flex: 1;
+}
+.list1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.list-item {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+}
+.usp2 {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 43px;
+}
+.usp-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+}
+.highlights,
+.item,
+.list2,
+.usp-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.list2 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.highlights,
+.item {
+  flex-direction: column;
+}
+.highlights {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.item {
+  height: 333px;
+  width: 136px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .usp,
+  .usp1,
+  .usp2 {
+    font-size: var(--font-size-mid);
+    line-height: 25px;
+  }
+}

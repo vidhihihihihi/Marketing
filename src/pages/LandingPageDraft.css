@@ -1,0 +1,161 @@
+.landing-page-draft-3-child {
+  width: 600px;
+  height: 357px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.signed-by-base-typography-p {
+  width: 1px;
+  height: 1px;
+  position: relative;
+  display: none;
+}
+.spacer-28,
+.text {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.text {
+  height: 20px;
+  text-decoration: underline;
+  line-height: 20px;
+}
+.spacer-28 {
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hint {
+  width: 91px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.chevron-icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: 49px;
+  left: 342px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.services-content {
+  width: 1245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.services-content-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-36xl) var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.why-marketing-dna {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.container,
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.container {
+  width: 1156px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 38.9px;
+  max-width: 100%;
+}
+.container-wrapper,
+.landing-page-draft-3 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.container-wrapper {
+  width: 1358px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 80.6px;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-100);
+}
+.landing-page-draft-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-backgroundprimary);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  gap: var(--gap-6xl);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-sm);
+  color: var(--content-contenttertiary);
+}
+@media screen and (max-width: 1275px) {
+  .container-wrapper {
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container-wrapper {
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .services-content-wrapper {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+  .why-marketing-dna {
+    font-size: var(--font-size-5xl);
+    line-height: 25px;
+  }
+  .container {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .why-marketing-dna {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .container-wrapper {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
