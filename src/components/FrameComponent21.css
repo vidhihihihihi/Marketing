@@ -1,4 +1,4 @@
-.frame-child9 {
+.frame-child23 {
   width: 345px;
   height: 668px;
   position: relative;
@@ -8,7 +8,7 @@
   display: none;
   max-width: 100%;
 }
-.frame-child10 {
+.frame-child24 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -38,7 +38,7 @@
   z-index: 1;
   font-family: inherit;
 }
-.designation3 {
+.designation4 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
@@ -52,13 +52,13 @@
   justify-content: flex-start;
   padding: 0 0 var(--padding-23xl);
 }
-.paragraph12 {
+.paragraph19 {
   flex: 1;
   position: relative;
   z-index: 1;
 }
 .paragraph-frame,
-.rectangle-parent5 {
+.rectangle-parent12 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -69,7 +69,7 @@
   padding: 0 0 0 var(--padding-12xs);
   font-size: var(--font-size-xl);
 }
-.rectangle-parent5 {
+.rectangle-parent12 {
   flex: 1;
   box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--content-contentprimary);
@@ -89,7 +89,7 @@
   .hi-im-surbhi-container2 {
     font-size: var(--font-size-5xl);
   }
-  .rectangle-parent5 {
+  .rectangle-parent12 {
     padding-top: var(--padding-18xl);
     padding-bottom: var(--padding-138xl);
     box-sizing: border-box;
@@ -99,11 +99,11 @@
   .hi-im-surbhi-container2 {
     font-size: var(--font-size-lg);
   }
-  .designation3,
-  .paragraph12 {
+  .designation4,
+  .paragraph19 {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent5 {
+  .rectangle-parent12 {
     gap: var(--gap-mid);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

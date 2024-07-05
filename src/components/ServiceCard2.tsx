@@ -9,27 +9,27 @@ const ServiceCard: FunctionComponent<ServiceCardType> = ({
   className = "",
 }) => {
   return (
-    <div className={`service-card5 ${className}`}>
-      <div className="card-isolated-media-top5">
-        <div className="card-isolated-media-top-child">
-          <div className="frame-child12" />
+    <div className={`service-card8 ${className}`}>
+      <div className="card-isolated-media-top8">
+        <div className="card-isolated-media-top-inner1">
+          <div className="frame-child26" />
         </div>
-        <div className="card-element-line-item-container">
-          <div className="card-element-line-item15">
-            <div className="signed-by-base-card-element-15" />
-            <div className="paragraph19">Quality</div>
+        <div className="card-element-line-item-parent2">
+          <div className="card-element-line-item24">
+            <div className="signed-by-base-card-element-24" />
+            <div className="paragraph26">Quality</div>
           </div>
-          <div className="card-element-line-item16">
-            <div className="signed-by-base-card-element-16" />
-            <div className="paragraph20">Paragraph</div>
+          <div className="card-element-line-item25">
+            <div className="signed-by-base-card-element-25" />
+            <div className="paragraph27">Paragraph</div>
           </div>
         </div>
       </div>
-      <div className="signed-by-base-card-isolate10" />
-      <div className="signed-by-base-card-isolate11" />
-      <div className="card-element-line-item17">
-        <div className="signed-by-base-card-element-17" />
-        <b className="furniture5">Home Furniture</b>
+      <div className="signed-by-base-card-isolate16" />
+      <div className="signed-by-base-card-isolate17" />
+      <div className="card-element-line-item26">
+        <div className="signed-by-base-card-element-26" />
+        <b className="furniture8">Home Furniture</b>
       </div>
     </div>
   );

@@ -15,14 +15,14 @@ export type HeaderType = {
 
 const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
   return (
-    <header className={`header2 ${className}`}>
-      <div className="rectangle-parent1">
-        <div className="frame-child3" />
-        <a className="logo2">Logo</a>
+    <header className={`header5 ${className}`}>
+      <div className="rectangle-parent8">
+        <div className="frame-child15" />
+        <a className="logo8">Logo</a>
       </div>
       <div className="header-inner">
         <FormControl
-          className="group"
+          className="frame-formcontrol"
           variant="standard"
           sx={{
             borderTopWidth: "0px",
@@ -91,9 +91,9 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
         </FormControl>
       </div>
       <div className="header-child">
-        <div className="frame-parent6">
+        <div className="frame-parent34">
           <FormControl
-            className="frame-formcontrol"
+            className="parent1"
             variant="standard"
             sx={{
               borderTopWidth: "0px",
@@ -160,22 +160,22 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
             </Select>
             <FormHelperText />
           </FormControl>
-          <div className="input-element-content-container">
-            <div className="input-element-content2">
-              <div className="signed-by-base-input-element2" />
-              <a className="text10">Social Media Marketing</a>
+          <div className="input-element-content-frame">
+            <div className="input-element-content8">
+              <div className="signed-by-base-input-element8" />
+              <a className="text26">Social Media Marketing</a>
             </div>
           </div>
-          <div className="input-element-content3">
-            <div className="signed-by-base-input-element3" />
-            <div className="text11">{`Analytics & Tracking
+          <div className="input-element-content9">
+            <div className="signed-by-base-input-element9" />
+            <div className="text27">{`Analytics & Tracking
 `}</div>
           </div>
         </div>
       </div>
       <div className="header-inner1">
         <FormControl
-          className="parent1"
+          className="parent2"
           variant="standard"
           sx={{
             borderTopWidth: "0px",
@@ -239,26 +239,26 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
         </FormControl>
       </div>
       <div className="header-inner2">
-        <div className="input-element-content-parent">
-          <div className="input-element-content4">
-            <div className="signed-by-base-input-element4" />
-            <div className="text12">Get Free Audit Report</div>
+        <div className="input-element-content-group">
+          <div className="input-element-content10">
+            <div className="signed-by-base-input-element10" />
+            <div className="text28">Get Free Audit Report</div>
           </div>
-          <div className="frame-parent7">
-            <div className="image-7-container">
+          <div className="frame-parent35">
+            <div className="image-7-frame">
               <img
-                className="image-7-icon2"
+                className="image-7-icon8"
                 loading="lazy"
                 alt=""
                 src="/image-7@2x.png"
               />
             </div>
-            <div className="vector-parent">
-              <img className="rectangle-icon" alt="" src="/rectangle-2.svg" />
-              <a className="a2">
+            <div className="vector-container">
+              <img className="frame-child16" alt="" src="/rectangle-2.svg" />
+              <a className="a9">
                  
-                <a className="a3" href="tel:+918088698016" target="_blank">
-                  <span className="span2">+918088698016</span>
+                <a className="a10" href="tel:+918088698016" target="_blank">
+                  <span className="span8">+918088698016</span>
                 </a>
               </a>
             </div>

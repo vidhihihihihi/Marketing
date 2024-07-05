@@ -34,7 +34,7 @@
   justify-content: flex-start;
   gap: var(--gap-xs-3);
 }
-.paragraph13 {
+.paragraph20 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
@@ -42,7 +42,7 @@
   font-family: var(--font-inter);
   z-index: 1;
 }
-.frame-parent10 {
+.frame-parent38 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -51,14 +51,14 @@
   padding: 0 0 var(--padding-mini);
   gap: var(--gap-12xs-1);
 }
-.frame-child11 {
+.frame-child25 {
   width: 145px;
   height: 15px;
   position: relative;
   background-color: var(--color-dimgray-100);
   z-index: 1;
 }
-.paragraph14,
+.paragraph21,
 .values {
   align-self: stretch;
   position: relative;
@@ -72,12 +72,12 @@
   font-weight: 400;
   font-family: inherit;
 }
-.paragraph14 {
+.paragraph21 {
   font-size: var(--font-size-xl);
   line-height: 32px;
   font-family: var(--font-inter);
 }
-.rectangle-parent6,
+.rectangle-parent13,
 .values-parent {
   align-self: stretch;
   display: flex;
@@ -86,7 +86,7 @@
   justify-content: flex-start;
   gap: var(--gap-12xs-1);
 }
-.rectangle-parent6 {
+.rectangle-parent13 {
   gap: var(--gap-xs-3);
 }
 .lets-start-your {
@@ -109,14 +109,14 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
 }
-.frame-parent9,
+.frame-parent37,
 .lets-start-your-journey-parent,
 .mission-values-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.frame-parent9 {
+.frame-parent37 {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-141xl);
@@ -211,7 +211,7 @@
     font-size: var(--font-size-5xl);
     line-height: 29px;
   }
-  .frame-parent9 {
+  .frame-parent37 {
     gap: var(--gap-61xl);
   }
   .values-graphic-parent {
@@ -227,7 +227,7 @@
     font-size: var(--font-size-lg);
     line-height: 22px;
   }
-  .paragraph13 {
+  .paragraph20 {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
@@ -236,11 +236,11 @@
     line-height: 22px;
   }
   .lets-start-your,
-  .paragraph14 {
+  .paragraph21 {
     font-size: var(--font-size-base);
     line-height: 25px;
   }
-  .frame-parent9 {
+  .frame-parent37 {
     gap: var(--gap-21xl);
   }
   .graphic {

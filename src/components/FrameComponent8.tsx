@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
-import ServiceCard1 from "./ServiceCard1";
+import ServiceCard1 from "./ServiceCard11";
 import ServiceCardInstance from "./ServiceCardInstance";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./ServiceCard2";
 import "./FrameComponent8.css";
 
 export type FrameComponentType = {
@@ -17,7 +17,7 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
         <div className="why-choose-marketing-dna-wrapper">
           <h3 className="why-choose-marketing">Why Choose Marketing DNA?</h3>
         </div>
-        <div className="frame-parent12">
+        <div className="frame-parent40">
           <div className="service-card-parent">
             <ServiceCard1 />
             <ServiceCardInstance />

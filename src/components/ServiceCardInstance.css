@@ -16,19 +16,19 @@
   padding: 0 var(--padding-12xl) 0 var(--padding-18xl);
   box-sizing: border-box;
 }
-.signed-by-base-card-element-12 {
+.signed-by-base-card-element-21 {
   height: 1px;
   width: 1px;
   position: relative;
   display: none;
 }
-.paragraph17 {
+.paragraph24 {
   flex: 1;
   position: relative;
   line-height: 24px;
   font-weight: 600;
 }
-.card-element-line-item12 {
+.card-element-line-item21 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -37,18 +37,18 @@
   padding: 0 0 0 var(--padding-base);
   z-index: 1;
 }
-.signed-by-base-card-element-13 {
+.signed-by-base-card-element-22 {
   height: 1px;
   width: 1px;
   position: relative;
   display: none;
 }
-.paragraph18 {
+.paragraph25 {
   flex: 1;
   position: relative;
   line-height: 24px;
 }
-.card-element-line-item13 {
+.card-element-line-item22 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -58,18 +58,18 @@
   z-index: 1;
   font-size: var(--font-size-base);
 }
-.card-element-line-item-group,
-.card-isolated-media-top4 {
+.card-element-line-item-parent1,
+.card-isolated-media-top7 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.card-element-line-item-group {
+.card-element-line-item-parent1 {
   width: 115.2px;
   align-items: flex-start;
   gap: var(--gap-xl-5);
 }
-.card-isolated-media-top4 {
+.card-isolated-media-top7 {
   flex: 1;
   border-radius: var(--br-xs);
   background-color: var(--background-backgroundprimary);
@@ -81,22 +81,22 @@
   gap: var(--gap-base-4);
   max-width: 100%;
 }
-.signed-by-base-card-element-14,
-.signed-by-base-card-isolate8,
-.signed-by-base-card-isolate9 {
+.signed-by-base-card-element-23,
+.signed-by-base-card-isolate14,
+.signed-by-base-card-isolate15 {
   width: 1px;
   height: 1px;
   position: relative;
   display: none;
 }
-.furniture4 {
+.furniture7 {
   align-self: stretch;
   height: 32px;
   position: relative;
   line-height: 32px;
   display: inline-block;
 }
-.card-element-line-item14 {
+.card-element-line-item23 {
   width: 303px;
   display: none;
   flex-direction: column;
@@ -107,12 +107,12 @@
   font-size: var(--font-size-5xl);
 }
 .service-card-instance,
-.service-card4 {
+.service-card7 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.service-card4 {
+.service-card7 {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -130,11 +130,11 @@
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 450px) {
-  .paragraph17 {
+  .paragraph24 {
     font-size: var(--font-size-base);
     line-height: 19px;
   }
-  .furniture4 {
+  .furniture7 {
     font-size: var(--font-size-lgi);
     line-height: 26px;
   }

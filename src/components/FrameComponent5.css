@@ -1,9 +1,9 @@
-.frame-child4,
-.frame-child5 {
+.frame-child17,
+.frame-child18 {
   border: 1px solid var(--content-contentprimary);
   box-sizing: border-box;
 }
-.frame-child4 {
+.frame-child17 {
   width: 345px;
   height: 668px;
   position: relative;
@@ -12,7 +12,7 @@
   max-width: 100%;
   z-index: 0;
 }
-.frame-child5 {
+.frame-child18 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -24,7 +24,7 @@
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.25));
   z-index: 1;
 }
-.ellipse-div {
+.frame-child19 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -43,14 +43,14 @@
   padding: 0 var(--padding-lgi) 0 var(--padding-2xl);
   box-sizing: border-box;
 }
-.paragraph9 {
+.paragraph16 {
   width: 193px;
   position: relative;
   font-size: var(--font-size-xl);
   display: inline-block;
   z-index: 2;
 }
-.rectangle-parent2 {
+.rectangle-parent9 {
   flex: 1;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--content-contentprimary);
@@ -70,17 +70,17 @@
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 750px) {
-  .rectangle-parent2 {
+  .rectangle-parent9 {
     padding-top: var(--padding-18xl);
     padding-bottom: var(--padding-140xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .paragraph9 {
+  .paragraph16 {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent2 {
+  .rectangle-parent9 {
     gap: var(--gap-base);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

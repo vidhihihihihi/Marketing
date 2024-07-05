@@ -13,19 +13,19 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
       <div className="mission-values">
         <img className="mission-values-child" alt="" src="/rectangle-69.svg" />
         <div className="mission-values-container">
-          <div className="frame-parent9">
-            <div className="frame-parent10">
+          <div className="frame-parent37">
+            <div className="frame-parent38">
               <div className="mission-icon-parent">
                 <div className="mission-icon" />
                 <h3 className="our-mission">Our Mission</h3>
               </div>
-              <div className="paragraph13">Paragraph</div>
+              <div className="paragraph20">Paragraph</div>
             </div>
-            <div className="rectangle-parent6">
-              <div className="frame-child11" />
+            <div className="rectangle-parent13">
+              <div className="frame-child25" />
               <div className="values-parent">
                 <h3 className="values">Values</h3>
-                <div className="paragraph14">Paragraph</div>
+                <div className="paragraph21">Paragraph</div>
               </div>
             </div>
             <div className="lets-start-your-journey-parent">

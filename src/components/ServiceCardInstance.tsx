@@ -23,27 +23,27 @@ const ServiceCardInstance: FunctionComponent<ServiceCardInstanceType> = ({
       className={`service-card-instance ${className}`}
       style={serviceCardInstanceStyle}
     >
-      <div className="service-card4">
-        <div className="card-isolated-media-top4">
+      <div className="service-card7">
+        <div className="card-isolated-media-top7">
           <div className="image-container">
             <div className="image1" />
           </div>
-          <div className="card-element-line-item-group">
-            <div className="card-element-line-item12">
-              <div className="signed-by-base-card-element-12" />
-              <div className="paragraph17">Quality</div>
+          <div className="card-element-line-item-parent1">
+            <div className="card-element-line-item21">
+              <div className="signed-by-base-card-element-21" />
+              <div className="paragraph24">Quality</div>
             </div>
-            <div className="card-element-line-item13">
-              <div className="signed-by-base-card-element-13" />
-              <div className="paragraph18">Paragraph</div>
+            <div className="card-element-line-item22">
+              <div className="signed-by-base-card-element-22" />
+              <div className="paragraph25">Paragraph</div>
             </div>
           </div>
         </div>
-        <div className="signed-by-base-card-isolate8" />
-        <div className="signed-by-base-card-isolate9" />
-        <div className="card-element-line-item14">
-          <div className="signed-by-base-card-element-14" />
-          <b className="furniture4">Home Furniture</b>
+        <div className="signed-by-base-card-isolate14" />
+        <div className="signed-by-base-card-isolate15" />
+        <div className="card-element-line-item23">
+          <div className="signed-by-base-card-element-23" />
+          <b className="furniture7">Home Furniture</b>
         </div>
       </div>
     </div>

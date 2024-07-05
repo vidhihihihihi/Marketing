@@ -9,23 +9,23 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
   className = "",
 }) => {
   return (
-    <div className={`rectangle-parent4 ${className}`}>
-      <div className="frame-child7" />
+    <div className={`rectangle-parent11 ${className}`}>
+      <div className="frame-child21" />
       <div className="ellipse-container">
-        <div className="frame-child8" />
+        <div className="frame-child22" />
       </div>
       <div className="hi-im-surbhi-parent">
         <h3 className="hi-im-surbhi-container1">
           <span>Hi I’m</span>
           <span className="surbhi1"> Surbhi</span>
         </h3>
-        <div className="designation2">Designation</div>
+        <div className="designation3">Designation</div>
       </div>
       <div className="paragraph-container">
-        <div className="paragraph11">Paragraph</div>
+        <div className="paragraph18">Paragraph</div>
       </div>
-      <div className="filled10" />
-      <div className="filled11" />
+      <div className="filled22" />
+      <div className="filled23" />
     </div>
   );
 };

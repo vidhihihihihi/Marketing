@@ -9,7 +9,7 @@
   z-index: 2;
   font-family: inherit;
 }
-.designation1 {
+.designation2 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
@@ -43,7 +43,7 @@
   .hi-im-surbhi-container {
     font-size: var(--font-size-lg);
   }
-  .designation1 {
+  .designation2 {
     font-size: var(--font-size-base);
   }
 }

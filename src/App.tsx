@@ -6,13 +6,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import LandingPageDraft from "./pages/LandingPageDraft";
-import AboutUsPage from "./pages/AboutUsPage";
 import CareersPage from "./pages/CareersPage";
 import JobOpeningPost from "./pages/JobOpeningPost";
 import WriteForUs from "./pages/WriteForUs";
 import CaseStudies from "./pages/CaseStudies";
 import ProductPage from "./pages/ProductPage";
 import ContactUsPage from "./pages/ContactUsPage";
+import AboutUsPage from "./pages/AboutUsPage";
 
 function App() {
   const action = useNavigationType();
@@ -31,10 +31,6 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/about-us-page":
         title = "";
         metaDescription = "";
         break;
@@ -62,6 +58,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/about-us-page":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -81,13 +81,13 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPageDraft />} />
-      <Route path="/about-us-page" element={<AboutUsPage />} />
       <Route path="/careers-page" element={<CareersPage />} />
       <Route path="/job-opening-post" element={<JobOpeningPost />} />
       <Route path="/write-for-us" element={<WriteForUs />} />
       <Route path="/case-studies" element={<CaseStudies />} />
       <Route path="/product-page" element={<ProductPage />} />
       <Route path="/contact-us-page" element={<ContactUsPage />} />
+      <Route path="/about-us-page" element={<AboutUsPage />} />
     </Routes>
   );
 }

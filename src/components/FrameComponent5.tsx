@@ -10,14 +10,14 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
   className = "",
 }) => {
   return (
-    <div className={`rectangle-parent2 ${className}`}>
-      <div className="frame-child4" />
-      <div className="frame-child5" />
+    <div className={`rectangle-parent9 ${className}`}>
+      <div className="frame-child17" />
+      <div className="frame-child18" />
       <div className="ellipse-wrapper">
-        <div className="ellipse-div" />
+        <div className="frame-child19" />
       </div>
       <FrameComponent6 />
-      <div className="paragraph9">Paragraph</div>
+      <div className="paragraph16">Paragraph</div>
     </div>
   );
 };

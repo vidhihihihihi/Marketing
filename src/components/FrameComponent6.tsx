@@ -15,7 +15,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
           <span>Hi I’m</span>
           <span className="surbhi"> Surbhi</span>
         </h3>
-        <div className="designation1">Designation</div>
+        <div className="designation2">Designation</div>
       </div>
     </div>
   );

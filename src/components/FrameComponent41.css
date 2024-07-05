@@ -1,4 +1,4 @@
-.frame-child6 {
+.frame-child20 {
   width: 345px;
   height: 668px;
   position: relative;
@@ -27,19 +27,19 @@
   padding: 0 var(--padding-xs);
   box-sizing: border-box;
 }
-.paragraph10 {
+.paragraph17 {
   width: 193px;
   position: relative;
   display: inline-block;
   z-index: 1;
 }
-.filled9 {
+.filled21 {
   width: 16px;
   height: 16px;
   position: relative;
   display: none;
 }
-.rectangle-parent3 {
+.rectangle-parent10 {
   flex: 1;
   box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.25);
   border: 1px solid var(--content-contentprimary);
@@ -58,17 +58,17 @@
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 750px) {
-  .rectangle-parent3 {
+  .rectangle-parent10 {
     padding-top: var(--padding-18xl);
     padding-bottom: var(--padding-140xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .paragraph10 {
+  .paragraph17 {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent3 {
+  .rectangle-parent10 {
     gap: var(--gap-base);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

@@ -10,13 +10,13 @@ const FrameComponent7: FunctionComponent<FrameComponent7Type> = ({
 }) => {
   return (
     <section className={`about-us-page-inner ${className}`}>
-      <div className="frame-parent8">
+      <div className="frame-parent36">
         <div className="company-overview-image-parent">
           <div className="company-overview-image" />
           <div className="about-our-company-parent">
             <h3 className="about-our-company">About Our Company</h3>
             <div className="paragraph-wrapper">
-              <div className="paragraph8">Paragraph</div>
+              <div className="paragraph15">Paragraph</div>
             </div>
           </div>
         </div>

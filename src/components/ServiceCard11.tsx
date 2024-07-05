@@ -14,7 +14,7 @@ const ServiceCard1: FunctionComponent<ServiceCard1Type> = ({
   propWidth,
   propAlignSelf,
 }) => {
-  const serviceCard1Style: CSSProperties = useMemo(() => {
+  const serviceCard2Style: CSSProperties = useMemo(() => {
     return {
       width: propWidth,
       alignSelf: propAlignSelf,
@@ -22,29 +22,29 @@ const ServiceCard1: FunctionComponent<ServiceCard1Type> = ({
   }, [propWidth, propAlignSelf]);
 
   return (
-    <div className={`service-card3 ${className}`} style={serviceCard1Style}>
-      <div className="card-isolated-media-top3">
+    <div className={`service-card6 ${className}`} style={serviceCard2Style}>
+      <div className="card-isolated-media-top6">
         <div className="service-card-icon-wrapper">
           <div className="service-card-icon" />
         </div>
-        <div className="frame-parent11">
-          <div className="card-element-line-item-wrapper">
-            <div className="card-element-line-item9">
-              <div className="signed-by-base-card-element-9" />
-              <div className="paragraph15">Quality</div>
+        <div className="frame-parent39">
+          <div className="card-element-line-item-container">
+            <div className="card-element-line-item18">
+              <div className="signed-by-base-card-element-18" />
+              <div className="paragraph22">Quality</div>
             </div>
           </div>
-          <div className="card-element-line-item10">
-            <div className="signed-by-base-card-element-10" />
-            <div className="paragraph16">Paragraph</div>
+          <div className="card-element-line-item19">
+            <div className="signed-by-base-card-element-19" />
+            <div className="paragraph23">Paragraph</div>
           </div>
         </div>
       </div>
-      <div className="signed-by-base-card-isolate6" />
-      <div className="signed-by-base-card-isolate7" />
-      <div className="card-element-line-item11">
-        <div className="signed-by-base-card-element-11" />
-        <b className="furniture3">Home Furniture</b>
+      <div className="signed-by-base-card-isolate12" />
+      <div className="signed-by-base-card-isolate13" />
+      <div className="card-element-line-item20">
+        <div className="signed-by-base-card-element-20" />
+        <b className="furniture6">Home Furniture</b>
       </div>
     </div>
   );

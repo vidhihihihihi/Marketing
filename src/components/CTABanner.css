@@ -1,5 +1,5 @@
 .cta-banner-item,
-.paragraph21 {
+.paragraph28 {
   position: relative;
   max-width: 100%;
 }
@@ -9,7 +9,7 @@
   background-color: var(--color-gainsboro-100);
   display: none;
 }
-.paragraph21 {
+.paragraph28 {
   width: 599.1px;
   line-height: 32px;
   font-weight: 300;
@@ -35,7 +35,7 @@
   padding: var(--padding-11xs) 0 0;
   box-sizing: border-box;
 }
-.button-container-child {
+.button-container-inner {
   align-self: stretch;
   width: 109.7px;
   position: relative;
@@ -44,7 +44,7 @@
   z-index: 1;
   margin-left: -164.4px;
 }
-.button-container {
+.button-container3 {
   width: 220.4px;
   display: flex;
   flex-direction: row;
@@ -90,7 +90,7 @@
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 450px) {
-  .paragraph21 {
+  .paragraph28 {
     font-size: var(--font-size-xl);
     line-height: 25px;
   }

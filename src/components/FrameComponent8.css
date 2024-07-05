@@ -36,7 +36,7 @@
   min-width: 242px;
   max-width: 100%;
 }
-.frame-parent12,
+.frame-parent40,
 .service-card-instance1 {
   align-self: stretch;
   display: flex;
@@ -46,7 +46,7 @@
   gap: var(--gap-41xl);
   max-width: 100%;
 }
-.frame-parent12 {
+.frame-parent40 {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-smi);
