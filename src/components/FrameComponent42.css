@@ -1,0 +1,112 @@
+.banner-item {
+  height: 210px;
+  width: 1382px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.cta-banner-1 {
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  line-height: 31.2px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.banner-heading {
+  width: 353px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.banner-button-child {
+  height: 46px;
+  width: 135px;
+  position: relative;
+  border-radius: var(--br-xl);
+  display: none;
+}
+.book-free-consultation {
+  margin: 0;
+}
+.book-free-consultation-container {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 3;
+}
+.banner-button,
+.banner-container,
+.banner1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.banner-button {
+  width: 135px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.banner-container,
+.banner1 {
+  max-width: 100%;
+}
+.banner1 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-58xl) var(--padding-87xl) var(--padding-57xl)
+    var(--padding-108xl);
+  gap: var(--gap-xl);
+}
+.banner-container {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1300px) {
+  .banner1 {
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .banner1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .banner1 {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cta-banner-1 {
+    font-size: var(--font-size-mid);
+    line-height: 25px;
+  }
+}

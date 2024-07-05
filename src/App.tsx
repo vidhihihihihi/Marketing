@@ -11,6 +11,8 @@ import CareersPage from "./pages/CareersPage";
 import JobOpeningPost from "./pages/JobOpeningPost";
 import WriteForUs from "./pages/WriteForUs";
 import CaseStudies from "./pages/CaseStudies";
+import ProductPage from "./pages/ProductPage";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   const action = useNavigationType();
@@ -52,6 +54,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/product-page":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/contact-us-page":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -76,6 +86,8 @@ function App() {
       <Route path="/job-opening-post" element={<JobOpeningPost />} />
       <Route path="/write-for-us" element={<WriteForUs />} />
       <Route path="/case-studies" element={<CaseStudies />} />
+      <Route path="/product-page" element={<ProductPage />} />
+      <Route path="/contact-us-page" element={<ContactUsPage />} />
     </Routes>
   );
 }
