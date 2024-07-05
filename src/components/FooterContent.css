@@ -1,4 +1,4 @@
-.frame-child17 {
+.frame-child28 {
   height: 61px;
   width: 165.5px;
   position: relative;
@@ -6,14 +6,14 @@
   background-color: var(--color-darkgray);
   display: none;
 }
-.logo6 {
+.logo10 {
   position: relative;
   line-height: 32px;
   display: inline-block;
   min-width: 50.1px;
   z-index: 1;
 }
-.rectangle-parent9 {
+.rectangle-parent14 {
   border-radius: var(--br-xl);
   background-color: var(--color-darkgray);
   display: flex;
@@ -27,17 +27,17 @@
   color: var(--color-dimgray-100);
   font-family: var(--font-inter);
 }
-.image-7-icon6 {
+.image-7-icon10 {
   height: 30px;
   width: 32.1px;
   position: relative;
   object-fit: cover;
   z-index: 1;
 }
-.span6 {
+.span10 {
   text-decoration: underline;
 }
-.a7 {
+.a13 {
   color: inherit;
 }
 .social-media-handle-container {
@@ -62,7 +62,7 @@
   flex-direction: row;
   gap: var(--gap-10xs);
 }
-.image-8-icon3 {
+.image-8-icon5 {
   align-self: stretch;
   width: 32.1px;
   position: relative;
@@ -71,13 +71,13 @@
   min-height: 24px;
   z-index: 1;
 }
-.assistmarketingdnain11 {
+.assistmarketingdnain19 {
   text-decoration: underline;
 }
-.assistmarketingdnain10 {
+.assistmarketingdnain18 {
   color: inherit;
 }
-.assistmarketingdnain9 {
+.assistmarketingdnain17 {
   align-self: stretch;
   position: relative;
   font-weight: 300;
@@ -127,18 +127,18 @@
   background-color: var(--background-backgroundprimary);
   z-index: 1;
 }
-.footer-content2,
+.footer-content5,
 .footer-top1,
-.social-media-icons {
+.social-media-icons1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.social-media-icons {
+.social-media-icons1 {
   flex-direction: row;
   gap: var(--gap-smi);
 }
-.footer-content2,
+.footer-content5,
 .footer-top1 {
   flex-direction: column;
 }
@@ -146,7 +146,7 @@
   align-self: stretch;
   gap: var(--gap-5xs-3);
 }
-.footer-content2 {
+.footer-content5 {
   width: 249.7px;
   padding: var(--padding-xs) 0 0;
   box-sizing: border-box;
@@ -156,7 +156,7 @@
   font-family: var(--font-rubik);
 }
 @media screen and (max-width: 450px) {
-  .logo6 {
+  .logo10 {
     font-size: var(--font-size-mid);
     line-height: 25px;
   }

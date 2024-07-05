@@ -107,13 +107,12 @@ body {
   --gap-12xs-4: 0.4px;
   --gap-12xs-1: 0.1px;
   --gap-28xl: 47px;
-  --gap-10xl-5: 29.5px;
-  --gap-21xl: 40px;
   --gap-47xl-5: 66.5px;
   --gap-23xl: 42px;
   --gap-46xl: 65px;
   --gap-13xl: 32px;
   --gap-3xs-5: 9.5px;
+  --gap-10xl-5: 29.5px;
   --gap-49xl-2: 68.2px;
   --gap-18xl: 37px;
   --gap-6xl-1: 25.1px;
@@ -127,6 +126,7 @@ body {
   --gap-42xl: 61px;
   --gap-141xl: 160px;
   --gap-61xl: 80px;
+  --gap-21xl: 40px;
   --gap-xs-3: 11.3px;
   --gap-26xl: 45px;
   --gap-173xl: 192px;
@@ -203,18 +203,16 @@ body {
   --padding-51xl: 70px;
   --padding-121xl: 140px;
   --padding-3xs: 10px;
-  --padding-22xl: 41px;
-  --padding-48xl: 67px;
-  --padding-43xl: 62px;
-  --padding-177xl: 196px;
   --padding-20xl: 39px;
   --padding-99xl: 118px;
+  --padding-43xl: 62px;
   --padding-2xs-2: 10.2px;
   --padding-101xl: 120px;
   --padding-41xl: 60px;
   --padding-61xl: 80px;
   --padding-3xl-6: 22.6px;
   --padding-6xl-8: 25.8px;
+  --padding-22xl: 41px;
   --padding-380xl: 399px;
   --padding-80xl: 99px;
   --padding-180xl: 199px;
@@ -245,6 +243,8 @@ body {
   --padding-225xl: 244px;
   --padding-140xl: 159px;
   --padding-21xl: 40px;
+  --padding-48xl: 67px;
+  --padding-177xl: 196px;
 
   /* Border radiuses */
   --br-3xs: 10px;

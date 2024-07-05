@@ -21,7 +21,7 @@
   display: none;
   max-width: 100%;
 }
-.rectangle-56-stroke1 {
+.rectangle-56-stroke3 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -34,7 +34,7 @@
   max-height: 100%;
   z-index: 1;
 }
-.first-name-icon1 {
+.first-name-icon3 {
   position: absolute;
   top: 15px;
   left: 8px;
@@ -61,7 +61,7 @@
   justify-content: flex-start;
   position: relative;
 }
-.rectangle-58-stroke1 {
+.rectangle-58-stroke3 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -74,7 +74,7 @@
   max-height: 100%;
   z-index: 1;
 }
-.phone-icon1 {
+.phone-icon3 {
   position: absolute;
   top: 9px;
   left: 8px;
@@ -110,7 +110,7 @@
   gap: var(--gap-2xl);
   min-width: 157px;
 }
-.rectangle-57-stroke1 {
+.rectangle-57-stroke3 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -123,7 +123,7 @@
   max-height: 100%;
   z-index: 1;
 }
-.email-icon1 {
+.email-icon3 {
   position: absolute;
   top: 9px;
   left: 8px;
@@ -131,7 +131,7 @@
   height: 15.4px;
   z-index: 2;
 }
-.email-input1 {
+.email-input3 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -142,13 +142,13 @@
   left: 0;
 }
 .email-company-fields,
-.email-field {
+.email-field1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.email-field {
+.email-field1 {
   height: 63px;
   flex: 1;
   position: relative;
@@ -158,7 +158,7 @@
   padding: 0 0 0 var(--padding-9xs);
 }
 .current-company,
-.rectangle-59-stroke1 {
+.rectangle-59-stroke3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -181,7 +181,7 @@
   position: relative;
 }
 .email-and-company,
-.form-fields {
+.form-fields2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -192,7 +192,7 @@
   gap: var(--gap-3xl);
   min-width: 160px;
 }
-.form-fields {
+.form-fields2 {
   width: 528px;
   flex-direction: row;
   gap: var(--gap-21xl);
@@ -216,7 +216,7 @@
   font-weight: 500;
   z-index: 1;
 }
-.frame-parent26 {
+.frame-parent37 {
   width: 106px;
   display: flex;
   flex-direction: row;
@@ -236,12 +236,12 @@
   z-index: 1;
 }
 .experience-button-pairs,
-.frame-parent27 {
+.frame-parent38 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.frame-parent27 {
+.frame-parent38 {
   width: 106px;
   justify-content: flex-start;
   gap: var(--gap-8xs);
@@ -262,7 +262,7 @@
   font-weight: 500;
   z-index: 1;
 }
-.frame-parent28 {
+.frame-parent39 {
   width: 103px;
   display: flex;
   flex-direction: row;
@@ -282,12 +282,12 @@
   z-index: 1;
 }
 .experience-button-pairs1,
-.frame-parent29 {
+.frame-parent40 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.frame-parent29 {
+.frame-parent40 {
   width: 106px;
   justify-content: flex-start;
   gap: var(--gap-8xs);
@@ -384,7 +384,7 @@
   justify-content: flex-start;
 }
 .or-drag-files,
-.rectangle-68-stroke1 {
+.rectangle-68-stroke3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -485,10 +485,10 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .email-field {
+  .email-field1 {
     flex: 1;
   }
-  .form-fields {
+  .form-fields2 {
     flex-wrap: wrap;
     gap: var(--gap-xl);
   }

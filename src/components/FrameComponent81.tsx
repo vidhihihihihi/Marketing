@@ -16,17 +16,17 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
         </div>
         <div className="career-form">
           <div className="career-form-child" />
-          <div className="form-fields">
+          <div className="form-fields2">
             <div className="name-and-phone">
               <div className="name-phone-inputs">
                 <div className="name-phone-fields">
                   <img
-                    className="rectangle-56-stroke1"
+                    className="rectangle-56-stroke3"
                     alt=""
                     src="/rectangle-56-stroke.svg"
                   />
                   <img
-                    className="first-name-icon1"
+                    className="first-name-icon3"
                     loading="lazy"
                     alt=""
                     src="/first-name.svg"
@@ -36,12 +36,12 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
               <div className="name-phone-inputs1">
                 <div className="rectangle-58-stroke-parent">
                   <img
-                    className="rectangle-58-stroke1"
+                    className="rectangle-58-stroke3"
                     alt=""
                     src="/rectangle-56-stroke.svg"
                   />
                   <img
-                    className="phone-icon1"
+                    className="phone-icon3"
                     loading="lazy"
                     alt=""
                     src="/phone1.svg"
@@ -51,15 +51,15 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
             </div>
             <div className="email-and-company">
               <div className="email-company-fields">
-                <div className="email-field">
-                  <div className="email-input1">
+                <div className="email-field1">
+                  <div className="email-input3">
                     <img
-                      className="rectangle-57-stroke1"
+                      className="rectangle-57-stroke3"
                       alt=""
                       src="/rectangle-56-stroke.svg"
                     />
                     <img
-                      className="email-icon1"
+                      className="email-icon3"
                       loading="lazy"
                       alt=""
                       src="/email1.svg"
@@ -69,7 +69,7 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
               </div>
               <div className="company-field">
                 <img
-                  className="rectangle-59-stroke1"
+                  className="rectangle-59-stroke3"
                   alt=""
                   src="/rectangle-56-stroke.svg"
                 />
@@ -85,21 +85,21 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
               <div className="experience-options">
                 <div className="experience-buttons">
                   <div className="experience-button-pairs">
-                    <div className="frame-parent26">
+                    <div className="frame-parent37">
                       <input className="frame-input" type="checkbox" />
                       <div className="option-1">Option 1</div>
                     </div>
-                    <div className="frame-parent27">
+                    <div className="frame-parent38">
                       <input className="frame-input1" type="checkbox" />
                       <div className="option-11">Option 1</div>
                     </div>
                   </div>
                   <div className="experience-button-pairs1">
-                    <div className="frame-parent28">
+                    <div className="frame-parent39">
                       <input className="frame-input2" type="checkbox" />
                       <div className="option-12">Option 1</div>
                     </div>
-                    <div className="frame-parent29">
+                    <div className="frame-parent40">
                       <input className="frame-input3" type="checkbox" />
                       <div className="option-13">Option 1</div>
                     </div>
@@ -122,12 +122,12 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
                     className="upload-button-child"
                     loading="lazy"
                     alt=""
-                    src="/rectangle-69.svg"
+                    src="/rectangle-692.svg"
                   />
                 </div>
                 <div className="drag-drop-area">
                   <img
-                    className="rectangle-68-stroke1"
+                    className="rectangle-68-stroke3"
                     alt=""
                     src="/rectangle-68-stroke1.svg"
                   />

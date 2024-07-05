@@ -12,125 +12,48 @@
 .header-image-icon1 {
   left: 704px;
 }
-.signed-by-base-typography-p3 {
+.signed-by-base-typography-p6 {
   width: 1px;
   height: 1px;
   position: relative;
   display: none;
 }
-.spacer-283,
-.text3 {
+.spacer-286,
+.text6 {
   align-self: stretch;
   position: relative;
   display: none;
 }
-.text3 {
+.text6 {
   height: 20px;
   text-decoration: underline;
   line-height: 20px;
 }
-.spacer-283 {
+.spacer-286 {
   height: 28px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.hint3 {
+.hint6,
+.job-opening-post {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hint6 {
   width: 91px;
   display: none;
-  flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
   z-index: 4;
-}
-.cta-banner-child {
-  width: 1440px;
-  height: 200px;
-  position: relative;
-  background-color: var(--color-gainsboro-100);
-  display: none;
-  max-width: 100%;
-}
-.lets-get-started {
-  margin: 0;
-  width: 599.1px;
-  position: relative;
-  font-size: inherit;
-  line-height: 32px;
-  font-weight: 300;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  z-index: 1;
-}
-.contact-us {
-  align-self: stretch;
-  position: relative;
-  font-weight: 500;
-  z-index: 2;
-}
-.contact-us-wrapper {
-  width: 220.4px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-11xs) 0 0;
-  box-sizing: border-box;
-}
-.contact-link-content-child {
-  align-self: stretch;
-  width: 109.7px;
-  position: relative;
-  max-height: 100%;
-  min-height: 22px;
-  z-index: 1;
-  margin-left: -164.4px;
-}
-.contact-link,
-.contact-link-content {
-  width: 220.4px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.contact-link {
-  width: 600px;
-  justify-content: center;
-  padding: 0 var(--padding-12xs) 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-  font-size: var(--font-size-mini);
-  font-family: var(--font-inter);
-}
-.cta-banner,
-.job-opening-post {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  box-sizing: border-box;
-}
-.cta-banner {
-  align-self: stretch;
-  background-color: var(--color-gainsboro-100);
-  align-items: center;
-  padding: var(--padding-65xl) var(--padding-xl) var(--padding-16xl);
-  gap: var(--gap-8xl);
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-6xl);
-  color: var(--color-dimgray-100);
-  font-family: var(--font-poppins);
 }
 .job-opening-post {
   width: 100%;
   position: relative;
   background-color: var(--background-backgroundprimary);
   overflow: hidden;
+  display: flex;
   align-items: flex-end;
   padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
   gap: 70px;
   line-height: normal;
   letter-spacing: normal;
@@ -145,10 +68,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .lets-get-started {
-    font-size: var(--font-size-xl);
-    line-height: 25px;
-  }
   .job-opening-post {
     gap: var(--gap-mid);
   }
