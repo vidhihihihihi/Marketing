@@ -101,13 +101,13 @@
   gap: var(--gap-27xl);
   max-width: 100%;
 }
-.frame-parent,
+.frame-group,
 .logo-container-inner {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.frame-parent {
+.frame-group {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-start;
@@ -258,7 +258,7 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .frame-parent {
+  .frame-group {
     gap: var(--gap-8xl);
   }
 }

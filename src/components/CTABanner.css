@@ -1,0 +1,97 @@
+.cta-banner-item,
+.paragraph21 {
+  position: relative;
+  max-width: 100%;
+}
+.cta-banner-item {
+  width: 1440px;
+  height: 200px;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.paragraph21 {
+  width: 599.1px;
+  line-height: 32px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.contact-us1 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  z-index: 2;
+}
+.contact-us-container {
+  width: 220.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.button-container-child {
+  align-self: stretch;
+  width: 109.7px;
+  position: relative;
+  max-height: 100%;
+  min-height: 22px;
+  z-index: 1;
+  margin-left: -164.4px;
+}
+.button-container {
+  width: 220.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.c-t-a-banner,
+.contact-button,
+.cta-banner1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-button {
+  width: 600px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+}
+.c-t-a-banner,
+.cta-banner1 {
+  justify-content: flex-start;
+}
+.cta-banner1 {
+  flex: 1;
+  background-color: var(--color-gainsboro-100);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-65xl) var(--padding-xl) var(--padding-16xl);
+  gap: var(--gap-8xl);
+}
+.c-t-a-banner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-4xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .paragraph21 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+}

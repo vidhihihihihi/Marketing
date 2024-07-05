@@ -25,7 +25,7 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
             <a className="logo">Logo</a>
           </div>
           <div className="logo-container-inner">
-            <div className="frame-parent">
+            <div className="frame-group">
               <div className="input-element-content-wrapper">
                 <div className="input-element-content">
                   <div className="signed-by-base-input-element" />

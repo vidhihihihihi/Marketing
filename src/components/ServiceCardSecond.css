@@ -22,7 +22,7 @@
   position: relative;
   display: none;
 }
-.paragraph2 {
+.paragraph4 {
   flex: 1;
   position: relative;
   line-height: 24px;
@@ -43,7 +43,7 @@
   position: relative;
   display: none;
 }
-.paragraph3 {
+.paragraph5 {
   flex: 1;
   position: relative;
   line-height: 24px;
@@ -130,7 +130,7 @@
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 450px) {
-  .paragraph2 {
+  .paragraph4 {
     font-size: var(--font-size-base);
     line-height: 19px;
   }

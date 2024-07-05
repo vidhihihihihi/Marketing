@@ -31,11 +31,11 @@ const ServiceCardSecond: FunctionComponent<ServiceCardSecondType> = ({
           <div className="card-content-second">
             <div className="card-element-line-item3">
               <div className="signed-by-base-card-element-3" />
-              <div className="paragraph2">Service</div>
+              <div className="paragraph4">Service</div>
             </div>
             <div className="card-element-line-item4">
               <div className="signed-by-base-card-element-4" />
-              <div className="paragraph3">Paragraph</div>
+              <div className="paragraph5">Paragraph</div>
             </div>
           </div>
         </div>

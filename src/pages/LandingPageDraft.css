@@ -132,7 +132,7 @@
 }
 @media screen and (max-width: 1100px) {
   .container-wrapper {
-    padding-bottom: 34px;
+    padding-bottom: var(--padding-15xl);
     box-sizing: border-box;
   }
 }

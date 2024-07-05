@@ -10,7 +10,7 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
 }) => {
   return (
     <section className={`cta-background-parent ${className}`}>
-      <div className="cta-background" />
+      <div className="cta-background1" />
       <div className="cta-content">
         <h2 className="cutting-edge-digital-marketing">
           Cutting-Edge Digital Marketing Company, No Fluff

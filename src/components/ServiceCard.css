@@ -1,4 +1,4 @@
-.frame-item {
+.frame-child1 {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -22,7 +22,7 @@
   position: relative;
   display: none;
 }
-.paragraph4 {
+.paragraph6 {
   flex: 1;
   position: relative;
   line-height: 24px;
@@ -43,7 +43,7 @@
   position: relative;
   display: none;
 }
-.paragraph5 {
+.paragraph7 {
   flex: 1;
   position: relative;
   line-height: 24px;
@@ -119,7 +119,7 @@
   font-family: var(--font-inter);
 }
 @media screen and (max-width: 450px) {
-  .paragraph4 {
+  .paragraph6 {
     font-size: var(--font-size-base);
     line-height: 19px;
   }

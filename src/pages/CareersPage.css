@@ -1,0 +1,310 @@
+.few-small-paragraphs,
+.heading {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.few-small-paragraphs {
+  font-size: var(--font-size-xl);
+  line-height: 32px;
+  font-family: var(--font-inter);
+}
+.company-culture-content {
+  width: 623px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.current-openings,
+.job-opening-name {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.current-openings {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+  font-weight: 700;
+}
+.job-opening-name {
+  font-weight: 400;
+}
+.job-opening-name,
+.view-post-,
+.work-from-office {
+  align-self: stretch;
+  position: relative;
+  line-height: 36.6px;
+}
+.view-post- {
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  z-index: 1;
+  margin-top: -5.6px;
+}
+.job-item,
+.open-positions-list,
+.work-from-office-full-time-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+}
+.job-item,
+.open-positions-list {
+  gap: var(--gap-12xs-4);
+  font-size: var(--font-size-6xl);
+}
+.open-positions-list {
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-11xl);
+}
+.job-opening-name1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.job-opening-name1,
+.view-post-1,
+.work-from-office1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 36.6px;
+}
+.view-post-1 {
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  z-index: 1;
+  margin-top: -5.6px;
+}
+.job-details,
+.job-listing {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.job-details {
+  font-size: var(--font-size-xl);
+}
+.job-listing {
+  gap: var(--gap-12xs-4);
+}
+.job-opening-name2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.job-opening-name2,
+.view-post-2,
+.work-from-office2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 36.6px;
+}
+.view-post-2 {
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  z-index: 1;
+  margin-top: -5.6px;
+}
+.work-from-office-full-time-group {
+  align-self: stretch;
+  flex-direction: column;
+  font-size: var(--font-size-xl);
+}
+.company-culture,
+.job-listing1,
+.open-positions,
+.work-from-office-full-time-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.job-listing1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-12xs-4);
+}
+.company-culture,
+.open-positions {
+  max-width: 100%;
+}
+.open-positions {
+  width: 623px;
+  flex-direction: column;
+  gap: var(--gap-48xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-6xl);
+}
+.company-culture {
+  width: 1371px;
+  flex-direction: row;
+  padding: 0 0 39.4px var(--padding-xl);
+  box-sizing: border-box;
+  gap: 204px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.navigation-icon,
+.navigation-icon1 {
+  width: 8px;
+  height: 5.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 65px;
+}
+.navigation-icon {
+  right: 528px;
+}
+.navigation-icon1 {
+  left: 704px;
+}
+.signed-by-base-typography-p2 {
+  width: 1px;
+  height: 1px;
+  position: relative;
+  display: none;
+}
+.spacer-282,
+.text2 {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.text2 {
+  height: 20px;
+  text-decoration: underline;
+  line-height: 20px;
+}
+.spacer-282 {
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.careers-page,
+.hint2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hint2 {
+  width: 91px;
+  display: none;
+  align-items: flex-start;
+  z-index: 5;
+}
+.careers-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-backgroundprimary);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--content-contenttertiary);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .company-culture {
+    flex-wrap: wrap;
+    gap: 102px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .current-openings,
+  .heading {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .open-positions {
+    gap: var(--gap-14xl);
+  }
+  .company-culture {
+    gap: 51px;
+  }
+  .careers-page {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .few-small-paragraphs {
+    font-size: var(--font-size-base);
+    line-height: 25px;
+  }
+  .current-openings {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .job-opening-name {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+  .view-post-,
+  .work-from-office {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .view-post- {
+    line-height: 32px;
+  }
+  .job-opening-name1 {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+  .view-post-1,
+  .work-from-office1 {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .view-post-1 {
+    line-height: 32px;
+  }
+  .job-opening-name2 {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+  .view-post-2,
+  .work-from-office2 {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .open-positions {
+    gap: var(--gap-mid);
+  }
+  .company-culture {
+    gap: var(--gap-6xl);
+  }
+}

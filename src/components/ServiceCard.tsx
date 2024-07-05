@@ -12,16 +12,16 @@ const ServiceCard: FunctionComponent<ServiceCardType> = ({
     <div className={`service-card2 ${className}`}>
       <div className="card-isolated-media-top2">
         <div className="card-isolated-media-top-inner">
-          <div className="frame-item" />
+          <div className="frame-child1" />
         </div>
         <div className="card-element-line-item-parent">
           <div className="card-element-line-item6">
             <div className="signed-by-base-card-element-6" />
-            <div className="paragraph4">Service</div>
+            <div className="paragraph6">Service</div>
           </div>
           <div className="card-element-line-item7">
             <div className="signed-by-base-card-element-7" />
-            <div className="paragraph5">Paragraph</div>
+            <div className="paragraph7">Paragraph</div>
           </div>
         </div>
       </div>

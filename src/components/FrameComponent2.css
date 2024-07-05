@@ -18,7 +18,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.frame-child {
+.frame-inner {
   position: absolute;
   height: 100%;
   top: 0;
@@ -38,7 +38,7 @@
   height: 45px;
   z-index: 1;
 }
-.rectangle-parent {
+.rectangle-group {
   width: 390.2px;
   height: 68px;
   position: relative;
@@ -121,7 +121,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.frame-group {
+.frame-container {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-58xl);
@@ -129,7 +129,7 @@
 }
 .about-details,
 .about-intro,
-.frame-group {
+.frame-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -224,7 +224,7 @@
     font-size: var(--font-size-5xl);
     line-height: 25px;
   }
-  .frame-group {
+  .frame-container {
     gap: var(--gap-19xl);
   }
 }
@@ -240,7 +240,7 @@
     font-size: var(--font-size-lg);
     line-height: 19px;
   }
-  .frame-group {
+  .frame-container {
     gap: var(--gap-lgi);
   }
   .about-details {

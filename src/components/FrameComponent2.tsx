@@ -20,9 +20,9 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
             cols={25}
           />
           <div className="about-details">
-            <div className="frame-group">
-              <div className="rectangle-parent">
-                <div className="frame-child" />
+            <div className="frame-container">
+              <div className="rectangle-group">
+                <div className="frame-inner" />
                 <div className="who-were">Who We’re</div>
               </div>
               <div className="about-paragraph-wrapper">

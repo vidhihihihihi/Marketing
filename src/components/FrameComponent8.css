@@ -1,0 +1,109 @@
+.why-choose-marketing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.service-card-parent,
+.why-choose-marketing-dna-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.why-choose-marketing-dna-wrapper {
+  width: 1232px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.service-card-parent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-42xl-1);
+}
+.third-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  min-width: 242px;
+  max-width: 100%;
+}
+.frame-parent12,
+.service-card-instance1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.frame-parent12 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-xl);
+  color: var(--content-contentprimary);
+}
+.why-choose-content,
+.why-choose-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.why-choose-content {
+  width: 1245px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-42xl);
+}
+.why-choose-content-wrapper {
+  width: 1421px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-14xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1100px) {
+  .third-card {
+    flex: 1;
+  }
+  .service-card-instance1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .why-choose-marketing {
+    font-size: var(--font-size-5xl);
+    line-height: 25px;
+  }
+  .service-card-parent {
+    gap: var(--gap-12xl);
+  }
+  .service-card-instance1,
+  .why-choose-content {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .why-choose-marketing {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .service-card-parent,
+  .why-choose-content {
+    gap: var(--gap-mini);
+  }
+}

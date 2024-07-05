@@ -1,0 +1,203 @@
+.rectangle-textarea {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 320px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.introduction-b2b-marketing3,
+.introduction-b2b-marketing4 {
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introduction-b2b-marketing4 {
+  z-index: 1;
+  margin-top: -75px;
+}
+.introduction-b2b-marketing-sta-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-lg);
+}
+.frame-parent41,
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent41 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+}
+.frame-wrapper4 {
+  width: 344px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) var(--padding-4xs) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.frame-child19 {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 320px;
+  width: 334px;
+  outline: 0;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-wrapper5 {
+  width: 342px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.introduction-b2b-marketing5,
+.introduction-b2b-marketing6 {
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introduction-b2b-marketing6 {
+  z-index: 1;
+  margin-top: -75px;
+}
+.introduction-b2b-marketing-sta-group {
+  flex: 1;
+  flex-direction: column;
+}
+.frame-wrapper6,
+.introduction-b2b-marketing-sta-group,
+.rectangle-parent10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper6 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.rectangle-parent10 {
+  width: 362px;
+  flex-direction: column;
+  gap: var(--gap-3xs-5);
+}
+.frame-child20 {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  height: 320px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.introduction-b2b-marketing7,
+.introduction-b2b-marketing8 {
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.introduction-b2b-marketing8 {
+  z-index: 1;
+  margin-top: -75px;
+}
+.introduction-b2b-marketing-sta-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent40,
+.rectangle-parent11 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent11 {
+  width: 334px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.frame-parent40 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-46xl);
+}
+.marketing-stats,
+.marketing-stats-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.marketing-stats-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-58xl);
+}
+.marketing-stats {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-20xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--content-contentprimary);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1275px) {
+  .frame-parent40 {
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+  }
+  .marketing-stats-content {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent40 {
+    gap: var(--gap-base);
+  }
+  .marketing-stats-content {
+    gap: var(--gap-lgi);
+  }
+}

@@ -21,9 +21,9 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
       <div className="signed-by-base-breadcrumbs-el7" />
       <div className="signed-by-base-breadcrumbs-el8" />
       <div className="footer-content">
-        <div className="frame-container">
-          <div className="rectangle-group">
-            <div className="frame-inner" />
+        <div className="frame-div">
+          <div className="rectangle-container">
+            <div className="frame-child2" />
             <div className="logo1">Logo</div>
           </div>
           <div className="image-7-parent">
@@ -96,9 +96,9 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                     name="radioGroup-2"
                   />
                 </div>
-                <div className="frame-div">
+                <div className="frame-parent1">
                   <div className="text-wrapper">
-                    <div className="text1">Link</div>
+                    <div className="text6">Link</div>
                   </div>
                   <img
                     className="underline-icon1"
@@ -157,9 +157,9 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                           name="radioGroup-1"
                         />
                       </div>
-                      <div className="frame-parent1">
+                      <div className="frame-parent2">
                         <div className="text-container">
-                          <div className="text2">Link</div>
+                          <div className="text7">Link</div>
                         </div>
                         <img
                           className="underline-icon4"
@@ -177,7 +177,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                         name="radioGroup-1"
                       />
                     </div>
-                    <div className="frame-parent2">
+                    <div className="frame-parent3">
                       <div className="newsletter-label-wrapper">
                         <div className="newsletter-label">Link</div>
                       </div>
@@ -201,7 +201,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                         name="radioGroup-3"
                       />
                     </div>
-                    <div className="frame-parent3">
+                    <div className="frame-parent4">
                       <div className="newsletter-link-label-wrapper">
                         <div className="newsletter-link-label">Link</div>
                       </div>
@@ -220,9 +220,9 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                         name="radioGroup-3"
                       />
                     </div>
-                    <div className="frame-parent4">
+                    <div className="frame-parent5">
                       <div className="text-frame">
-                        <div className="text3">Link</div>
+                        <div className="text8">Link</div>
                       </div>
                       <img
                         className="underline-icon7"
@@ -242,7 +242,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({
                   </div>
                   <div className="container-group">
                     <div className="container9">
-                      <div className="text4">Link</div>
+                      <div className="text9">Link</div>
                     </div>
                     <img
                       className="underline-icon8"
