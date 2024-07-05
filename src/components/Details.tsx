@@ -19,9 +19,7 @@ const Details: FunctionComponent<DetailsType> = ({ className = "" }) => {
           />
           <Item />
         </div>
-        <div className="testimonials">
-          <h2 className="what-our-clients">What our Clients Says</h2>
-        </div>
+
       </div>
       <Item propPadding="24px 0px 0px" />
     </div>

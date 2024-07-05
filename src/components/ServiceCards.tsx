@@ -1,8 +1,29 @@
-import { FunctionComponent } from "react";
-import ServiceCard1 from "./ServiceCard1";
-import ServiceCardSecond from "./ServiceCardSecond";
-import ServiceCard from "./ServiceCard";
+import { FunctionComponent, CSSProperties } from "react";
 import "./ServiceCards.css";
+
+export type ServiceCardType = {
+  className?: string;
+  serviceText: string;
+  paragraphText: string;
+};
+
+const ServiceCard: FunctionComponent<ServiceCardType> = ({
+  className = "",
+  serviceText,
+  paragraphText,
+}) => {
+  return (
+    <div className={`service-card ${className}`}>
+      <div className="card-content">
+        <div className="icon-placeholder" />
+        <div className="text-content">
+          <b className="service-text">{serviceText}</b>
+          <p className="paragraph-text">{paragraphText}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export type ServiceCardsType = {
   className?: string;
@@ -13,9 +34,12 @@ const ServiceCards: FunctionComponent<ServiceCardsType> = ({
 }) => {
   return (
     <div className={`service-cards ${className}`}>
-      <ServiceCard1 />
-      <ServiceCardSecond />
-      <ServiceCard />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
+      <ServiceCard serviceText="Service" paragraphText="Paragraph" />
     </div>
   );
 };

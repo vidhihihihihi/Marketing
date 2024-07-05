@@ -1,9 +1,8 @@
 import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
 import LandingBanner from "../components/LandingBanner";
-import FrameComponent2 from "../components/FrameComponent2";
+import LandingWhoWeAre from "../components/LandingWhoWeAre";
 import ServiceCards from "../components/ServiceCards";
-import ServiceCardThird from "../components/ServiceCardThird";
 import LandingCta from "../components/LandingCta";
 import Details from "../components/Details";
 import Container from "../components/Container";
@@ -28,11 +27,12 @@ const LandingPageDraft: FunctionComponent = () => {
         alt=""
         src="/chevron-icon-4.svg"
       />
-      <FrameComponent2 />
+      <LandingWhoWeAre />
       <section className="services-content-wrapper">
         <div className="services-content">
+          
           <ServiceCards />
-          <ServiceCardThird />
+
         </div>
       </section>
       <LandingCta />
@@ -42,6 +42,9 @@ const LandingPageDraft: FunctionComponent = () => {
             <h2 className="why-marketing-dna">{`Why Marketing DNA? `}</h2>
           </div>
           <Details />
+          <div className="content">
+            <h2 className="why-marketing-dna">{`What Our Clients Says `}</h2>
+          </div>
           <Container />
         </div>
       </section>

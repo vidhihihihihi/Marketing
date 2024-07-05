@@ -378,3 +378,10 @@
     font-size: var(--font-size-base);
   }
 }
+
+  .what-our-clients {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+    Padding: "24px 0px 0px";
+  }
+

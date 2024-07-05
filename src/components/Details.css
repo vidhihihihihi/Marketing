@@ -111,6 +111,21 @@
     gap: var(--gap-3xl);
   }
   .details {
+    @media screen and (max-width: 450px) {
+  .what-our-clients {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .testimonials {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .grid {
+    gap: var(--gap-3xl);
+  }
+  .details {
     gap: var(--gap-mid);
+  }
+}
   }
 }

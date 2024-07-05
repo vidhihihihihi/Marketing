@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import "./CallToAction.css";
+import "./ProductBanner.css";
 
-export type CallToActionType = {
+export type ProductBannerType = {
   className?: string;
 };
 
-const CallToAction: FunctionComponent<CallToActionType> = ({
+const ProductBanner: FunctionComponent<ProductBannerType> = ({
   className = "",
 }) => {
   return (
@@ -34,4 +34,4 @@ const CallToAction: FunctionComponent<CallToActionType> = ({
   );
 };
 
-export default CallToAction;
+export default ProductBanner;

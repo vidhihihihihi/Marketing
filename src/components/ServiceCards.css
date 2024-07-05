@@ -1,24 +1,56 @@
+/* ServiceCards.css */
 .service-cards {
-  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+  align-items: start;
+}
+
+.service-card {
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  width: 100%; /* Ensure the card takes the full width */
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-42xl-1);
-  max-width: 100%;
-  text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--content-contentprimary);
-  font-family: var(--font-inter);
+  margin-top: 20px;
 }
-@media screen and (max-width: 750px) {
-  .service-cards {
-    gap: var(--gap-12xl);
-  }
+
+.icon-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
-@media screen and (max-width: 450px) {
-  .service-cards {
-    gap: var(--gap-mini);
-  }
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-text {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.paragraph-text {
+  font-size: 0.9em;
+  color: #666;
 }

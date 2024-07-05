@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent2.css";
+import "./LandingWhoWeAre.css";
 
-export type FrameComponent2Type = {
+export type LandingWhoWeAreType = {
   className?: string;
 };
 
-const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
+const LandingWhoWeAre: FunctionComponent<LandingWhoWeAreType> = ({
   className = "",
 }) => {
   return (
@@ -62,4 +62,4 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   );
 };
 
-export default FrameComponent2;
+export default LandingWhoWeAre;
