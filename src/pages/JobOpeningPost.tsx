@@ -1,14 +1,14 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import MainHeader from "../components/MainHeader";
 import FrameComponent8 from "../components/FrameComponent81";
 import CTABanner from "../components/CTABanner";
-import FooterSection2 from "../components/FooterSection2";
+import FooterSection from "../components/FooterSection";
 import "./JobOpeningPost.css";
 
 const JobOpeningPost: FunctionComponent = () => {
   return (
     <div className="job-opening-post">
-      <Header />
+      <MainHeader />
       <FrameComponent8 />
       <img
         className="header-image-icon"
@@ -28,7 +28,7 @@ const JobOpeningPost: FunctionComponent = () => {
         <div className="spacer-286" />
       </div>
       <CTABanner />
-      <FooterSection2 />
+      <FooterSection />
     </div>
   );
 };

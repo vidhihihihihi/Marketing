@@ -1,21 +1,21 @@
 import { FunctionComponent } from "react";
-import FrameComponent4 from "../components/FrameComponent4";
-import FrameComponent3 from "../components/FrameComponent3";
+import MainHeader from "../components/MainHeader";
+import LandingBanner from "../components/LandingBanner";
 import FrameComponent2 from "../components/FrameComponent2";
 import ServiceCards from "../components/ServiceCards";
 import ServiceCardThird from "../components/ServiceCardThird";
-import FrameComponent1 from "../components/FrameComponent1";
+import LandingCta from "../components/LandingCta";
 import Details from "../components/Details";
 import Container from "../components/Container";
-import FrameComponent from "../components/FrameComponent";
+import LandingForm from "../components/LandingForm";
 import FooterSection from "../components/FooterSection";
 import "./LandingPageDraft.css";
 
 const LandingPageDraft: FunctionComponent = () => {
   return (
     <div className="landing-page-draft-3">
-      <FrameComponent4 />
-      <FrameComponent3 />
+      <MainHeader />
+      <LandingBanner />
       <div className="landing-page-draft-3-child" />
       <div className="hint">
         <div className="signed-by-base-typography-p" />
@@ -35,7 +35,7 @@ const LandingPageDraft: FunctionComponent = () => {
           <ServiceCardThird />
         </div>
       </section>
-      <FrameComponent1 />
+      <LandingCta />
       <section className="container-wrapper">
         <div className="container">
           <div className="content">
@@ -45,7 +45,7 @@ const LandingPageDraft: FunctionComponent = () => {
           <Container />
         </div>
       </section>
-      <FrameComponent />
+      <LandingForm />
       <FooterSection />
     </div>
   );

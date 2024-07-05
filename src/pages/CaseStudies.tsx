@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import MainHeader from "../components/MainHeader";
 import MarketingStats from "../components/MarketingStats";
-import FooterSection4 from "../components/FooterSection4";
+import FooterSection from "../components/FooterSection";
 import "./CaseStudies.css";
 
 const CaseStudies: FunctionComponent = () => {
   return (
     <div className="case-studies">
-      <Header />
+      <MainHeader />
       <section className="case-study-intro">
         <div className="case-study-intro-background" />
         <a className="case-studies1">Case Studies</a>
@@ -35,7 +35,7 @@ const CaseStudies: FunctionComponent = () => {
       <div className="rectangle-div" />
       <div className="case-studies-child1" />
       <div className="case-studies-child2" />
-      <FooterSection4 />
+      <FooterSection />
     </div>
   );
 };

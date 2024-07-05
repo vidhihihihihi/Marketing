@@ -7,13 +7,13 @@ import {
   FormControl,
   InputAdornment,
 } from "@mui/material";
-import "./FrameComponent4.css";
+import "./MainHeader.css";
 
-export type FrameComponent4Type = {
+export type MainHeaderType = {
   className?: string;
 };
 
-const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
+const MainHeader: FunctionComponent<MainHeaderType> = ({
   className = "",
 }) => {
   return (
@@ -348,4 +348,4 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
   );
 };
 
-export default FrameComponent4;
+export default MainHeader;

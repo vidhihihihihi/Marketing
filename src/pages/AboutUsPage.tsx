@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import MainHeader from "../components/MainHeader";
 import FrameComponent7 from "../components/FrameComponent7";
 import FrameComponent5 from "../components/FrameComponent5";
 import FrameComponent4 from "../components/FrameComponent41";
@@ -8,13 +8,13 @@ import FrameComponent2 from "../components/FrameComponent21";
 import FrameComponent1 from "../components/FrameComponent11";
 import FrameComponent from "../components/FrameComponent8";
 import CTABanner from "../components/CTABanner";
-import FooterSection from "../components/FooterSection1";
+import FooterSection from "../components/FooterSection";
 import "./AboutUsPage.css";
 
 const AboutUsPage: FunctionComponent = () => {
   return (
     <div className="about-us-page">
-      <Header />
+      <MainHeader />
       <section className="company-info">
         <h3 className="trust-the-process">
           trust the process and grow together

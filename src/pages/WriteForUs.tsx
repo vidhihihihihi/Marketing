@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
+import MainHeader from "../components/MainHeader";
 import FrameComponent9 from "../components/FrameComponent9";
-import FooterSection3 from "../components/FooterSection3";
+import FooterSection from "../components/FooterSection";
 import "./WriteForUs.css";
 
 const WriteForUs: FunctionComponent = () => {
   return (
     <div className="write-for-us">
-      <Header />
+      <MainHeader />
       <section className="call-to-action">
         <div className="cta-background" />
         <h3 className="write-for-us1">Write For Us</h3>
@@ -47,7 +47,7 @@ const WriteForUs: FunctionComponent = () => {
       <div className="filled3" />
       <div className="filled4" />
       <FrameComponent9 />
-      <FooterSection3 />
+      <FooterSection />
     </div>
   );
 };

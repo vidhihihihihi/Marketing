@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import Header1 from "../components/Header1";
 import CTABanner from "../components/CTABanner";
-import FooterSection1 from "../components/FooterSection1";
+import FooterSection from "../components/FooterSection";
 import "./CareersPage.css";
 
 const CareersPage: FunctionComponent = () => {
@@ -54,7 +54,7 @@ const CareersPage: FunctionComponent = () => {
         <div className="text2">Contact Us</div>
         <div className="spacer-282" />
       </div>
-      <FooterSection1 />
+      <FooterSection />
     </div>
   );
 };

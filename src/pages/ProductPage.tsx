@@ -1,13 +1,12 @@
 import { FunctionComponent } from "react";
-import Header from "../components/Header";
 import CallToAction from "../components/CallToAction";
 import ServiceCards from "../components/ServiceCards";
-import FrameComponent4 from "../components/FrameComponent4";
-import FrameComponent3 from "../components/FrameComponent3";
+import MainHeader from "../components/MainHeader";
+import FrameComponent3 from "../components/LandingBanner";
 import BottomBanner from "../components/BottomBanner";
 import FrameComponent2 from "../components/FrameComponent2";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent from "../components/FrameComponent";
+import LandingCta from "../components/LandingCta";
+import LandingForm from "../components/LandingForm";
 import FooterSection from "../components/FooterSection";
 import "./ProductPage.css";
 
@@ -36,7 +35,7 @@ const ProductPage: FunctionComponent = () => {
       <div className="filled10" />
       <div className="filled11" />
       <div className="filled12" />
-      <Header />
+      <MainHeader />
       <CallToAction />
       <div className="divider">
         <img className="divider-left-icon" alt="" src="/vector-52.svg" />
@@ -53,12 +52,12 @@ const ProductPage: FunctionComponent = () => {
             <h2 className="seo-service">SEO Service</h2>
           </div>
           <ServiceCards />
-          <FrameComponent4 />
+          <MainHeader />
           <FrameComponent3 />
           <BottomBanner />
           <FrameComponent2 />
-          <FrameComponent1 />
-          <FrameComponent />
+          <LandingCta />
+          <LandingForm />
         </section>
       </main>
       <FooterSection />

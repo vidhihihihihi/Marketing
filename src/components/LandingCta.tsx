@@ -1,12 +1,12 @@
 import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import "./FrameComponent1.css";
+import "./LandingCta.css";
 
-export type FrameComponent1Type = {
+export type LandingCtaType = {
   className?: string;
 };
 
-const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
+const LandingCta: FunctionComponent<LandingCtaType> = ({
   className = "",
 }) => {
   return (
@@ -37,4 +37,4 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
   );
 };
 
-export default FrameComponent1;
+export default LandingCta;
