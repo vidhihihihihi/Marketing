@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import LandingPageDraft from "./pages/LandingPageDraft";
+import LandingPage from "./pages/LandingPage";
 import CareersPage from "./pages/CareersPage";
 import WriteForUs from "./pages/WriteForUs";
 import CaseStudies from "./pages/CaseStudies";
@@ -80,7 +80,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LandingPageDraft />} />
+      <Route path="/" element={<LandingPage />} />
       <Route path="/careers-page" element={<CareersPage />} />
       <Route path="/write-for-us" element={<WriteForUs />} />
       <Route path="/case-studies" element={<CaseStudies />} />

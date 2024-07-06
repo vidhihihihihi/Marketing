@@ -8,30 +8,18 @@ import Details from "../components/LandingPage/Details";
 import Container from "../components/LandingPage/Container";
 import LandingForm from "../components/LandingPage/LandingForm";
 import FooterSection from "../components/FooterSection";
-import "./LandingPageDraft.css";
+import "./LandingPage.css";
 
-const LandingPageDraft: FunctionComponent = () => {
+const LandingPage: FunctionComponent = () => {
   return (
     <div className="landing-page-draft-3">
       <MainHeader />
       <LandingBanner />
-      <div className="landing-page-draft-3-child" />
-      <div className="hint">
-        <div className="signed-by-base-typography-p" />
-        <div className="text">Contact Us</div>
-        <div className="spacer-28" />
-      </div>
-      <img
-        className="chevron-icon"
-        loading="lazy"
-        alt=""
-        src="/chevron-icon-4.svg"
-      />
+      <div className="landing-page-draft-3-child" />    
       <LandingWhoWeAre />
       <section className="services-content-wrapper">
         <div className="services-content">
-          
-          <ServiceCards />
+           <ServiceCards />
 
         </div>
       </section>
@@ -54,4 +42,4 @@ const LandingPageDraft: FunctionComponent = () => {
   );
 };
 
-export default LandingPageDraft;
+export default LandingPage;
