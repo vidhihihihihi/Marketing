@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
-import LandingCta from "../components/LandingCta";
+import LandingCta from "../components/LandingPage/LandingCta";
 import FooterSection from "../components/FooterSection";
 import "./CareersPage.css";
 

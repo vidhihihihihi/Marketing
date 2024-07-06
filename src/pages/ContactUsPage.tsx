@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
-import ContactUsBanner from "../components/ContactUsBanner";
-import LandingForm from "../components/LandingForm";
-import Contact from "../components/Contact";
+import ContactUsBanner from "../components/ContactUsPage/ContactUsBanner";
+import LandingForm from "../components/LandingPage/LandingForm";
+import Contact from "../components/ContactUsPage/Contact";
 import FooterSection from "../components/FooterSection";
 import "./ContactUsPage.css";
 

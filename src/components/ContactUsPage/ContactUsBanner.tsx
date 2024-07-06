@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./LandingBanner.css";
+import "../LandingPage/LandingBanner.css";
 
 export type ContactUsBannerType = {
   className?: string;

@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import ProductBanner from "../components/ProductBanner";
-import ServiceCards from "../components/ServiceCards";
+import ProductBanner from "../components/ProductPages/ProductBanner";
+import ServiceCards from "../components/LandingPage/ServiceCards";
 import MainHeader from "../components/MainHeader";
-import BottomBanner from "../components/BottomBanner";
-import LandingCta from "../components/LandingCta";
-import Container from "../components/Container";
-import LandingForm from "../components/LandingForm";
+import BottomBanner from "../components/ProductPages/BottomBanner";
+import LandingCta from "../components/LandingPage/LandingCta";
+import Container from "../components/LandingPage/Container";
+import LandingForm from "../components/LandingPage/LandingForm";
 import FooterSection from "../components/FooterSection";
 import "./ProductPage.css";
 

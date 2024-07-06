@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
-import AboutCompany from "../components/AboutCompany";
-import ProfileCards from "../components/ProfileCards";
-import AboutMission from "../components/AboutMission";
-import AboutServices from "../components/AboutServices";
-import LandingCta from "../components/LandingCta";
+import AboutCompany from "../components/AboutUsPage/AboutCompany";
+import ProfileCards from "../components/AboutUsPage/ProfileCards";
+import AboutMission from "../components/AboutUsPage/AboutMission";
+import AboutServices from "../components/AboutUsPage/AboutServices";
+import LandingCta from "../components/LandingPage/LandingCta";
 import FooterSection from "../components/FooterSection";
 import "./AboutUsPage.css";
 

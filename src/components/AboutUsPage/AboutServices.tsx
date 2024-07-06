@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import ServiceCards from "./ServiceCards";
+import ServiceCards from "../LandingPage/ServiceCards";
 import "./AboutServices.css";
 
 export type AboutServicesType = {
