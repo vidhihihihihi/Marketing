@@ -1,9 +1,10 @@
+
 .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: #595959;
+  background-color: #FF6100;
   color: #ffffff;
   width: 100%;
 }
