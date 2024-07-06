@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent81.css";
+import "./JobOpeningForm.css";
 
-export type FrameComponent8Type = {
+export type JobOpeningFormType = {
   className?: string;
 };
 
-const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
+const JobOpeningForm: FunctionComponent<JobOpeningFormType> = ({
   className = "",
 }) => {
   return (
@@ -142,4 +142,4 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
   );
 };
 
-export default FrameComponent8;
+export default JobOpeningForm;

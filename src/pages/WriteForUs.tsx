@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
-import FrameComponent9 from "../components/FrameComponent9";
+import WriteForUsExample from "../components/WriteForUsExample";
 import FooterSection from "../components/FooterSection";
 import "./WriteForUs.css";
 
@@ -24,29 +24,31 @@ const WriteForUs: FunctionComponent = () => {
           <b className="please-note">Please Note:</b>
         </div>
       </section>
-      <img
-        className="vector-icon2"
-        loading="lazy"
-        alt=""
-        src="/vector-31.svg"
-      />
-      <img
-        className="vector-icon3"
-        loading="lazy"
-        alt=""
-        src="/vector-31.svg"
-      />
-      <div className="hint4">
-        <div className="signed-by-base-typography-p4" />
-        <div className="text4">Contact Us</div>
-        <div className="spacer-284" />
+      <section className={`submission-options-wrapper`}>
+      <div className="submission-options">
+        <div className="submission-option">
+          <div className="idea-submission-card">
+            <h3 className="idea-submission">Idea Submission</h3>
+            <div className="paragraph22">Paragraph</div>
+            <b className="click-here">Click Here</b>
+          </div>
+        </div>
+        <div className="example-card-parent">
+          <div className="example-card">
+            <img
+              className="example-icon"
+              loading="lazy"
+              alt=""
+              src="/vector-8.svg"
+            />
+            <h3 className="read-through-our">Read Through Our Top Examples</h3>
+          </div>
+          <div className="example-list">
+            <WriteForUsExample/>
+          </div>
+        </div>
       </div>
-      <div className="chevron-icon2" />
-      <div className="filled1" />
-      <div className="filled2" />
-      <div className="filled3" />
-      <div className="filled4" />
-      <FrameComponent9 />
+    </section>
       <FooterSection />
     </div>
   );

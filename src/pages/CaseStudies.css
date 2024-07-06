@@ -1,3 +1,19 @@
+.example-card-parent,
+.example-list {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.example-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--content-contentprimary);
+  font-family: var(--font-poppins);
+}
 .case-study-intro-background {
   width: 1455px;
   height: calc(100% - 8px);

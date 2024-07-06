@@ -1,14 +1,14 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import "./ExampleItem.css";
+import "./WriteForUsExample.css";
 
-export type ExampleItemType = {
+export type WriteForUsExampleType = {
   className?: string;
 
   /** Style props */
   propFlex?: CSSProperties["flex"];
 };
 
-const ExampleItem: FunctionComponent<ExampleItemType> = ({
+const WriteForUsExample: FunctionComponent<WriteForUsExampleType> = ({
   className = "",
   propFlex,
 }) => {
@@ -101,4 +101,4 @@ const ExampleItem: FunctionComponent<ExampleItemType> = ({
   );
 };
 
-export default ExampleItem;
+export default WriteForUsExample;
