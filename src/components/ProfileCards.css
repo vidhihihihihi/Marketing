@@ -1,3 +1,33 @@
+.profile-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.profile-card {
+  flex: 1;
+  box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--content-contentprimary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-38xl) var(--padding-55xl) var(--padding-222xl) var(--padding-56xl);
+  gap: var(--gap-16xl);
+  min-width: 259px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+
 .frame-child21 {
   width: 345px;
   height: 668px;
@@ -8,6 +38,7 @@
   display: none;
   max-width: 100%;
 }
+
 .frame-child22 {
   align-self: stretch;
   flex: 1;
@@ -17,6 +48,7 @@
   background-color: var(--color-gainsboro-100);
   z-index: 1;
 }
+
 .ellipse-container {
   align-self: stretch;
   height: 149px;
@@ -27,9 +59,11 @@
   padding: 0 var(--padding-xl) 0 var(--padding-lgi);
   box-sizing: border-box;
 }
+
 .surbhi1 {
   font-weight: 600;
 }
+
 .hi-im-surbhi-container1 {
   margin: 0;
   align-self: stretch;
@@ -38,12 +72,14 @@
   z-index: 1;
   font-family: inherit;
 }
+
 .designation3 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-xl);
   z-index: 2;
 }
+
 .hi-im-surbhi-parent {
   align-self: stretch;
   display: flex;
@@ -52,11 +88,13 @@
   justify-content: flex-start;
   padding: 0 0 var(--padding-23xl);
 }
+
 .paragraph18 {
   flex: 1;
   position: relative;
   z-index: 1;
 }
+
 .paragraph-container {
   align-self: stretch;
   display: flex;
@@ -66,6 +104,7 @@
   padding: 0 0 0 var(--padding-12xs);
   font-size: var(--font-size-xl);
 }
+
 .filled22,
 .filled23 {
   width: 16px;
@@ -73,35 +112,25 @@
   position: relative;
   display: none;
 }
-.rectangle-parent11 {
-  flex: 1;
-  box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.25);
-  border: 1px solid var(--content-contentprimary);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-38xl) var(--padding-55xl) var(--padding-222xl)
-    var(--padding-56xl);
-  gap: var(--gap-16xl);
-  min-width: 259px;
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-11xl);
-  color: var(--color-dimgray-100);
-  font-family: var(--font-poppins);
+
+@media screen and (max-width: 1200px) {
+  .profile-cards-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
+
 @media screen and (max-width: 750px) {
   .hi-im-surbhi-container1 {
     font-size: var(--font-size-5xl);
   }
-  .rectangle-parent11 {
+  .profile-card {
     padding-top: var(--padding-18xl);
     padding-bottom: var(--padding-138xl);
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
   .hi-im-surbhi-container1 {
     font-size: var(--font-size-lg);
@@ -110,7 +139,7 @@
   .paragraph18 {
     font-size: var(--font-size-base);
   }
-  .rectangle-parent11 {
+  .profile-card {
     gap: var(--gap-mid);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

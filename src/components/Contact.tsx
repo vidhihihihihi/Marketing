@@ -53,23 +53,23 @@ const Contact: FunctionComponent<ContactType> = ({ className = "" }) => {
                       </div>
                       <div className="facebook">Facebook</div>
                     </div>
-                    <div className="frame-parent46">
-                      <div className="rectangle-frame">
-                        <div className="frame-child24" />
+                    <div className="social-media-icon-rows-parent">
+                      <div className="social-media-icon-rows">
+                        <div className="social-media-icon-shapes" />
                       </div>
-                      <div className="twitter">Twitter</div>
+                      <div className="facebook">Twitter</div>
                     </div>
-                    <div className="frame-parent47">
-                      <div className="rectangle-wrapper1">
-                        <div className="frame-child25" />
+                    <div className="social-media-icon-rows-parent">
+                      <div className="social-media-icon-rows">
+                        <div className="social-media-icon-shapes" />
                       </div>
-                      <div className="linkedin">LinkedIn</div>
+                      <div className="facebook">LinkedIn</div>
                     </div>
-                    <div className="frame-parent48">
-                      <div className="rectangle-wrapper2">
-                        <div className="frame-child26" />
+                    <div className="social-media-icon-rows-parent">
+                      <div className="social-media-icon-rows">
+                        <div className="social-media-icon-shapes" />
                       </div>
-                      <div className="instagram">Instagram</div>
+                      <div className="facebook">Instagram</div>
                     </div>
                   </div>
                 </div>

@@ -1,22 +1,16 @@
 import { FunctionComponent } from "react";
-import "./FrameComponent31.css";
+import "./ProfileCards.css";
 
-export type FrameComponent3Type = {
-  className?: string;
-};
-
-const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
-  className = "",
-}) => {
+const ProfileCard: React.FC = () => {
   return (
-    <div className={`rectangle-parent11 ${className}`}>
+    <div className="profile-card">
       <div className="frame-child21" />
       <div className="ellipse-container">
         <div className="frame-child22" />
       </div>
       <div className="hi-im-surbhi-parent">
         <h3 className="hi-im-surbhi-container1">
-          <span>Hi I’m</span>
+          <span>Hi I'm</span>
           <span className="surbhi1"> Surbhi</span>
         </h3>
         <div className="designation3">Designation</div>
@@ -30,4 +24,15 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
   );
 };
 
-export default FrameComponent3;
+const ProfileCards: React.FC = () => {
+  return (
+    <div className="profile-cards-row">
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+    </div>
+  );
+};
+
+export default ProfileCards;

@@ -1,13 +1,25 @@
 import { FunctionComponent } from "react";
-import Header1 from "../components/Header1";
-import CTABanner from "../components/CTABanner";
+import MainHeader from "../components/MainHeader";
+import LandingCta from "../components/LandingCta";
 import FooterSection from "../components/FooterSection";
 import "./CareersPage.css";
 
 const CareersPage: FunctionComponent = () => {
   return (
     <div className="careers-page">
-      <Header1 careersStartHere="Careers: Start Here" />
+      <MainHeader/>
+      <section className="company-info">
+        <h3 className="trust-the-process">
+          Careers: Start Here
+        </h3>
+        <div className="result-driven-marketing">
+          Result driven marketing company
+        </div>
+        <div className="rectangle-parent">
+          <div className="frame-child" />
+          <div className="frame-item" />
+        </div>
+      </section>
       <section className="company-culture">
         <div className="company-culture-content">
           <h2 className="heading">Heading</h2>
@@ -46,14 +58,7 @@ const CareersPage: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <CTABanner paragraph="Let’s Get Started" />
-      <img className="navigation-icon" alt="" src="/vector-31.svg" />
-      <img className="navigation-icon1" alt="" src="/vector-31.svg" />
-      <div className="hint2">
-        <div className="signed-by-base-typography-p2" />
-        <div className="text2">Contact Us</div>
-        <div className="spacer-282" />
-      </div>
+      <LandingCta/>
       <FooterSection />
     </div>
   );

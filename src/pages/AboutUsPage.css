@@ -208,3 +208,27 @@
     box-sizing: border-box;
   }
 }
+
+.meet-our-team {
+  margin: 0;
+  width: 347.8px;
+  position: relative;
+  font-size: inherit;
+  line-height: 35px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.meet-our-team-wrapper {
+  width: 1119.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
