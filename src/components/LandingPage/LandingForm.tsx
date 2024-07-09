@@ -1,204 +1,46 @@
-import { FunctionComponent } from "react";
-import "./LandingForm.css";
+import React from 'react';
+import './LandingForm.css';
 
-export type LandingFormType = {
-  className?: string;
-};
-
-const LandingForm: FunctionComponent<LandingFormType> = ({
-  className = "",
-}) => {
+const LandingForm: React.FC = () => {
   return (
-    <section className={`form-wrapper ${className}`}>
-      <div className="form">
-        <div className="background1" />
-        <div className="header1">
-          <div className="container7">
-            <div className="icon1" />
-            <div className="talk-to-digital">
-              Talk to Digital marketing Experts
-            </div>
+    <div className="contact-form-container">
+      <h2>Talk to Digital Marketing Experts</h2>
+      <form>
+        <div className="form-group">
+          <input type="text" placeholder="Name*" required />
+          <input type="text" placeholder="Website" />
+        </div>
+        <div className="form-group">
+          <input type="email" placeholder="Email*" required />
+          <input type="tel" placeholder="Phone*" required />
+        </div>
+        <div className="form-group full-width">
+          <label>What Are You Looking For</label>
+          <div className="checkbox-group">
+            <label>
+              <input type="checkbox" /> Digital Marketing
+            </label>
+            <label>
+              <input type="checkbox" /> SEO Service
+            </label>
+            <label>
+              <input type="checkbox" /> Social Media Marketing
+            </label>
+            <label>
+              <input type="checkbox" /> Analytics & Tracking
+            </label>
+            <label>
+              <input type="checkbox" /> Services
+            </label>
+            
           </div>
         </div>
-        <div className="content3">
-          <div className="grid1">
-            <div className="row">
-              <div className="fields">
-                <div className="pair">
-                  <div className="name-input">
-                    <img
-                      className="rectangle-56-stroke"
-                      alt=""
-                      src="/rectangle-56-stroke.svg"
-                    />
-                    <img
-                      className="first-name-icon"
-                      alt=""
-                      src="/first-name.svg"
-                    />
-                  </div>
-                </div>
-                <div className="pair1">
-                  <div className="rectangle-57-stroke-parent">
-                    <img
-                      className="rectangle-57-stroke"
-                      alt=""
-                      src="/rectangle-56-stroke.svg"
-                    />
-                    <img
-                      className="website-icon"
-                      loading="lazy"
-                      alt=""
-                      src="/website.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="website-input">
-                <div className="website-field">
-                  <div className="website-placeholder-wrapper">
-                    <div className="website-placeholder">
-                      <img
-                        className="rectangle-58-stroke"
-                        alt=""
-                        src="/rectangle-56-stroke.svg"
-                      />
-                      <img className="email-icon" alt="" src="/email.svg" />
-                    </div>
-                  </div>
-                  <div className="email-input">
-                    <div className="email-options">
-                      <img
-                        className="what-are-you-looking-for"
-                        loading="lazy"
-                        alt=""
-                        src="/what-are-you-looking-for.svg"
-                      />
-                      <div className="email-choices">
-                        <input
-                          className="rectangle-62-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-1-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-1.svg"
-                        />
-                      </div>
-                      <div className="email-choices1">
-                        <input
-                          className="rectangle-63-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-2-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-2.svg"
-                        />
-                      </div>
-                      <div className="email-choices2">
-                        <input
-                          className="rectangle-64-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-3-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-3.svg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="phone-input">
-                  <div className="phone-field">
-                    <div className="rectangle-59-stroke-parent">
-                      <img
-                        className="rectangle-59-stroke"
-                        alt=""
-                        src="/rectangle-56-stroke.svg"
-                      />
-                      <img className="phone-icon" alt="" src="/phone.svg" />
-                    </div>
-                  </div>
-                  <div className="inquiry-type-input">
-                    <div className="inquiry-type-options">
-                      <div className="inquiry-type-choices">
-                        <input
-                          className="rectangle-65-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-4-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-4.svg"
-                        />
-                      </div>
-                      <div className="inquiry-type-choices1">
-                        <input
-                          className="rectangle-66-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-5-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-5.svg"
-                        />
-                      </div>
-                      <div className="inquiry-type-choices2">
-                        <input
-                          className="rectangle-67-stroke"
-                          type="checkbox"
-                        />
-                        <img
-                          className="option-6-icon"
-                          loading="lazy"
-                          alt=""
-                          src="/option-6.svg"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="message-input">
-            <div className="message-field">
-              <div className="rectangle-68-stroke-parent">
-                <img
-                  className="rectangle-68-stroke"
-                  alt=""
-                  src="/rectangle-68-stroke.svg"
-                />
-                <img
-                  className="message-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/message.svg"
-                />
-              </div>
-            </div>
-            <div className="submit-button">
-              <div className="submit-button-container">
-                <img
-                  className="submit-button-container-child"
-                  loading="lazy"
-                  alt=""
-                  src="/rectangle-27.svg"
-                />
-                <div className="send-message">Send Message</div>
-              </div>
-            </div>
-          </div>
+        <div className="form-group full-width">
+          <textarea placeholder="Message*" required></textarea>
         </div>
-      </div>
-    </section>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
   );
 };
 

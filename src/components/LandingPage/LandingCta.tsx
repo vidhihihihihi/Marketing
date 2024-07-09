@@ -9,28 +9,33 @@ export type LandingCtaType = {
 const LandingCta: FunctionComponent<LandingCtaType> = ({
   className = "",
 }) => {
+  const handleContactUsClick = () => {
+    window.location.href = "/contact-us-page";
+  };
+
   return (
     <section className={`banner-wrapper ${className}`}>
       <div className="banner">
-        <div className="banner-child" />
-        <div className="cta-banner-">{`CTA Banner ---> Write few lines`}</div>
+      <div className="content-wrapper">
+        <div className="cta-banner">Interested in an SEO or Advertising audit? We give you a full breakdown of any technical SEO or Ad issues and help you resolve them.</div>
         <div className="button">
           <Button
-            className="container1"
             disableElevation
             variant="contained"
             sx={{
               textTransform: "none",
-              color: "#555",
-              fontSize: "15",
-              background: "#f9f9f9",
+              color: "#000",
+              fontSize: "15px",
+              background: "#5d90e4",
               borderRadius: "20px",
               "&:hover": { background: "#f9f9f9" },
-              height: 34,
+              height: "34px",
             }}
+            onClick={handleContactUsClick}
           >
             Contact Us
           </Button>
+        </div>
         </div>
       </div>
     </section>

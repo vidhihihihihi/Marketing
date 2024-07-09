@@ -4,10 +4,12 @@ import ServiceCards from "../components/LandingPage/ServiceCards";
 import MainHeader from "../components/MainHeader";
 import BottomBanner from "../components/ProductPages/BottomBanner";
 import LandingCta from "../components/LandingPage/LandingCta";
-import Container from "../components/LandingPage/Container";
+import Testimonials from "../components/LandingPage/Testimonials";
+import FAQ from "../components/LandingPage/Questions";
 import LandingForm from "../components/LandingPage/LandingForm";
 import FooterSection from "../components/FooterSection";
 import "./ProductPage.css";
+import { Fab } from "@mui/material";
 
 const ProductPage: FunctionComponent = () => {
   return (
@@ -28,7 +30,8 @@ const ProductPage: FunctionComponent = () => {
           <div className="content">
             <h2 className="why-marketing-dna">{`What Our Clients Says `}</h2>
           </div>
-          <Container />
+          <Testimonials />
+          <FAQ/>
           <LandingForm />
         </section>
       </main>

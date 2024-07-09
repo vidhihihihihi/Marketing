@@ -5,7 +5,8 @@ import LandingWhoWeAre from "../components/LandingPage/LandingWhoWeAre";
 import ServiceCards from "../components/LandingPage/ServiceCards";
 import LandingCta from "../components/LandingPage/LandingCta";
 import Details from "../components/LandingPage/Details";
-import Container from "../components/LandingPage/Container";
+import Testimonials from "../components/LandingPage/Testimonials";
+import FAQ from "../components/LandingPage/Questions";
 import LandingForm from "../components/LandingPage/LandingForm";
 import FooterSection from "../components/FooterSection";
 import "./LandingPage.css";
@@ -32,10 +33,10 @@ const LandingPage: FunctionComponent = () => {
           <div className="content">
             <h2 className="why-marketing-dna">{`What Our Clients Says `}</h2>
           </div>
-          <Container />
+          <Testimonials/>
+          <FAQ/>
         </div>
-      </section>
-      
+      </section>      
       <LandingForm />
       <FooterSection />
     </div>
