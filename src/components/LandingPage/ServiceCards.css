@@ -1,4 +1,16 @@
 /* ServiceCards.css */
+.service-cards-container {
+  text-align: center;
+  width: 100%;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+  font-weight: 600
+}
+
 .service-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -19,8 +31,8 @@
   align-items: center;
   text-align: center;
   height: 250px;
-  width: 100%; /* Ensure the card takes the full width */
-
+  width: 100%;
+  transition: transform 0.2s ease-in-out; /* Optional: Add hover effect */
 }
 
 .card-content {
@@ -52,5 +64,12 @@
 
 .paragraph-text {
   font-size: 0.9em;
-  color: #666;
+  color: #000;
+}
+
+
+.service-icon {
+  width: 50px; /* Adjust icon size as needed */
+  height: 50px; /* Adjust icon size as needed */
+  margin-bottom: 10px;
 }

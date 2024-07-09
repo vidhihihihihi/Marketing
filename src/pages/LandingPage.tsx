@@ -15,14 +15,13 @@ const LandingPage: FunctionComponent = () => {
     <div className="landing-page-draft-3">
       <MainHeader />
       <LandingBanner />
-      <div className="landing-page-draft-3-child" />    
       <LandingWhoWeAre />
       <section className="services-content-wrapper">
         <div className="services-content">
            <ServiceCards />
-
         </div>
       </section>
+
       <LandingCta />
       <section className="container-wrapper">
         <div className="container">
@@ -36,6 +35,7 @@ const LandingPage: FunctionComponent = () => {
           <Container />
         </div>
       </section>
+      
       <LandingForm />
       <FooterSection />
     </div>

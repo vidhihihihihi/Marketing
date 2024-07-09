@@ -1,32 +1,20 @@
 .footer-section {
-  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #FF6100;
+  width: 100%;
 }
 
-.logo-section,.important-links,.featured-services{
-  flex: 1;
-  min-width: 250px;
-  box-sizing: border-box;
-}
-
-.newsletter-section{
-  flex: 1;
-  min-width: 250px;
-  box-sizing: border-box;
-  width:45%;
+.logo-section,.important-links,.featured-services,.newsletter-section{
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.contact-details {
-  margin-bottom: 10px;
-}
-
-.phone, .email {
-  margin-bottom: 10px;
 }
 
 .phone a, .email a {
@@ -39,6 +27,7 @@
 }
 
 .social-icons img {
+  margin-top: 10px;
   width: 24px;
   height: 24px;
   margin-right: 10px;
@@ -84,8 +73,10 @@
 }
 
 .footer-bottom {
-  margin-right:0px;
-  margin-bottom:0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
   font-size: 14px;
 }
 

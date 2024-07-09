@@ -10,14 +10,12 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
     <footer className={`footer-section ${className}`}>
         <div className="logo-section">
           <div className="logo">Logo</div>
-          <div className="contact-details">
             <div className="phone">
               <a href="tel:+918088698016">+91 8088698016</a>
             </div>
             <div className="email">
               <a href="mailto:assist@marketingdna.in">assist@marketingdna.in</a>
             </div>
-          </div>
           <div className="social-icons">
             <img src="/path-to-your-icon1.png"/>
             <img src="/path-to-your-icon2.png"/>
@@ -28,12 +26,12 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
         <div className="important-links">
           <h3>Important Links</h3>
           <ul>
-            <li><a href="about-us">About us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Write for us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li><a href="about-us-page">About us</a></li>
+            <li><a href="contact-us-page">Contact Us</a></li>
+            <li><a href="write-for-us">Write for us</a></li>
+            <li><a href="careers-page">Career</a></li>
+            <li><a href="faqs-page">FAQs</a></li>
+            <li><a href="blogs-page">Blogs</a></li>
           </ul>
         </div>
         <div className="featured-services">
