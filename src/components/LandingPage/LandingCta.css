@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0;
+  padding-top: 40px;
 }
 
 .banner-wrapper {

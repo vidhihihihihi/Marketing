@@ -19,7 +19,7 @@ const LandingBanner: FunctionComponent<LandingBannerType> = ({
           helping your business thrive online.
         </div>
         <a href="/contact-us-page" className="cta-button">
-          <div className="get-in-touch">Get in touch</div>
+          <div className="landing-get-in-touch">Get in touch</div>
         </a>
       </div>
     </section>

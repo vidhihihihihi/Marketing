@@ -1,0 +1,32 @@
+.write-for-us-banner {
+    background-image: url('./Banner.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .banner-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .banner-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+   
+  /* Ensure the content is above the overlay */
+  .banner-content {
+    position: relative;
+    z-index: 1;
+  }

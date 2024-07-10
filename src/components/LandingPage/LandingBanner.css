@@ -66,8 +66,7 @@
   z-index: 1;
   margin-top: var(--gap-10xs);
 }
-
-.get-in-touch {
+.landing-get-in-touch {
   position: relative;
   color: #000;
 }
