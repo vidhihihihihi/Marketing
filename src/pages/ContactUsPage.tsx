@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import MainHeader from "../components/MainHeader";
 import ContactUsBanner from "../components/ContactUsPage/ContactUsBanner";
 import LandingForm from "../components/LandingPage/LandingForm";
-import Contact from "../components/ContactUsPage/Contact";
+import ContactUs from "../components/ContactUsPage/ContactUs";
 import FooterSection from "../components/FooterSection";
 import "./ContactUsPage.css";
 
@@ -11,8 +11,16 @@ const ContactUsPage: FunctionComponent = () => {
     <div className="contact-us-page">
       <MainHeader />
       <ContactUsBanner />
-      <LandingForm />
-      <Contact />
+      <div className="content-container">
+        <div className="left-side">
+          <h2>Message Us</h2>
+          <p>Your one-liner goes here.</p>
+        </div>
+        <div className="right-side">
+          <LandingForm />
+        </div>
+      </div>
+      <ContactUs/>
       <FooterSection />      
     </div>
   );

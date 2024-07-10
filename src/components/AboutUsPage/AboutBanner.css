@@ -1,0 +1,74 @@
+.cta-background {
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: var(--padding-36xl) var(--padding-36xl) var(--padding-172xl);
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    font-family: var(--font-inter);
+    background-image: url('./Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .trust-the-process {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    z-index: 1;
+    color: black;
+  }
+  
+  .Result-driven {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 31.2px;
+    z-index: 1;
+  }
+  
+  .cta-content-about {
+    width: 623px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+    max-width: 100%;
+    z-index: 1;
+  }
+
+  
+  @media screen and (max-width: 750px) {
+    .cutting-edge-digital-marketing {
+      font-size: var(--font-size-5xl);
+      line-height: 32px;
+    }
+    .cta-background-parent {
+      padding: var(--padding-35xl) var(--padding-8xl) var(--padding-105xl);
+      box-sizing: border-box;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .cutting-edge-digital-marketing {
+      font-size: var(--font-size-lg);
+      line-height: 24px;
+    }
+    .youve-put-in {
+      font-size: var(--font-size-base);
+      line-height: 25px;
+    }
+  }
+  
