@@ -4,7 +4,7 @@ import AboutBanner from "../components/AboutUsPage/AboutBanner";
 import AboutCompany from "../components/AboutUsPage/AboutCompany";
 import ProfileCards from "../components/AboutUsPage/ProfileCards";
 import AboutMission from "../components/AboutUsPage/AboutMission";
-import ServiceCards from "../components/LandingPage/ServiceCards";
+import AboutCards from "../components/AboutUsPage/AboutCards";
 import LandingCta from "../components/LandingPage/LandingCta";
 import FooterSection from "../components/FooterSection";
 import "./AboutUsPage.css";
@@ -17,7 +17,7 @@ const AboutUsPage: FunctionComponent = () => {
       <AboutCompany />
       <ProfileCards />
       <AboutMission />
-      <ServiceCards />
+      <AboutCards />
       <LandingCta />
       <FooterSection />
     </div>

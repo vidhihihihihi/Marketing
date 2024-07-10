@@ -1,154 +1,79 @@
+.about-company-main {
+  margin-top: 50px; 
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 100%;
+}
+
 .company-overview-image {
   height: 623px;
   width: 557px;
-  position: relative;
   border-radius: var(--br-xl);
-  background-color: var(--color-gainsboro-100);
-  min-width: 557px;
+  object-fit: cover;
   max-width: 100%;
-  z-index: 3;
 }
-.about-our-company,
-.paragraph15 {
-  width: 347.8px;
-  position: relative;
-  display: inline-block;
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
   max-width: 100%;
-  z-index: 2;
 }
+
 .about-our-company {
+
   margin: 0;
-  font-size: inherit;
+  margin-top: 0; 
+  font-size: 2rem;
   font-weight: 600;
-  font-family: inherit;
 }
-.paragraph15 {
-  height: 35px;
+
+.paragraph {
+  margin-top: 1rem;
+  font-size: 1rem;
   font-weight: 300;
-  flex-shrink: 0;
-}
-.paragraph-wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
   max-width: 100%;
-  font-size: var(--font-size-xl);
-}
-.about-our-company-parent,
-.company-overview-image-parent {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.about-our-company-parent {
-  flex: 1;
-  flex-direction: column;
-  gap: var(--gap-173xl);
-  min-width: 403px;
-}
-.company-overview-image-parent {
-  align-self: stretch;
-  flex-direction: row;
-  gap: var(--gap-26xl);
-}
-.meet-our-team {
-  margin: 0;
-  width: 347.8px;
-  position: relative;
-  font-size: inherit;
-  line-height: 35px;
-  font-weight: 600;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  max-width: 100%;
-}
-.meet-our-team-wrapper {
-  width: 1119.8px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
-  box-sizing: border-box;
-  max-width: 100%;
-  text-align: center;
-}
-.about-us-page-inner,
-.frame-parent36 {
   display: flex;
   justify-content: flex-start;
-  max-width: 100%;
 }
-.frame-parent36 {
-  width: 1221.8px;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: var(--gap-23xl);
-}
-.about-us-page-inner {
-  align-self: stretch;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0 var(--padding-39xl) var(--padding-21xl);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--font-size-11xl);
-  color: var(--color-dimgray-100);
-  font-family: var(--font-poppins);
-}
-@media screen and (max-width: 1275px) {
-  .about-us-page-inner {
-    padding-left: var(--padding-10xl);
-    padding-right: var(--padding-10xl);
-    box-sizing: border-box;
-  }
-}
+
 @media screen and (max-width: 1100px) {
-  .company-overview-image {
-    flex: 1;
-  }
-  .company-overview-image-parent {
+  .content-wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
-}
-@media screen and (max-width: 750px) {
   .company-overview-image {
-    min-width: 100%;
+    width: 100%;
+    height: auto;
   }
-  .about-our-company {
-    font-size: var(--font-size-5xl);
-  }
-  .about-our-company-parent {
-    gap: var(--gap-77xl);
-    min-width: 100%;
-  }
-  .company-overview-image-parent {
-    gap: var(--gap-3xl);
-  }
-  .meet-our-team {
-    font-size: var(--font-size-5xl);
-    line-height: 28px;
-  }
-  .frame-parent36 {
-    gap: var(--gap-2xl);
+  .text-wrapper {
+    max-width: 100%;
+    text-align: center;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .about-our-company {
+    font-size: 1.5rem;
+  }
+  .paragraph {
+    font-size: 0.875rem;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .about-our-company {
-    font-size: var(--font-size-lg);
+    font-size: 1.25rem;
   }
-  .paragraph15 {
-    font-size: var(--font-size-base);
-  }
-  .about-our-company-parent {
-    gap: var(--gap-29xl);
-  }
-  .meet-our-team {
-    font-size: var(--font-size-lg);
-    line-height: 21px;
+  .paragraph {
+    font-size: 0.75rem;
   }
 }

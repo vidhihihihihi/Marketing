@@ -1,6 +1,6 @@
 .about-intro-child {
   border: 0;
-  background-color: var(--color-gainsboro-100);
+  background-color: transparent;
   height: 300px;
   width: 100%;
   outline: 0;
