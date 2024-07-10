@@ -1,17 +1,9 @@
 .about-us-page {
   width: 100%;
   position: relative;
-  background-color: var(--background-backgroundprimary);
-  overflow: hidden;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  box-sizing: border-box;
   line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
   font-size: var(--font-size-sm);
-  color: var(--content-contenttertiary);
-  font-family: var(--font-inter);
 }

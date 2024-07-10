@@ -1,3 +1,15 @@
+.meet-our-team-section {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.meet-our-team-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
 .profile-cards-row {
   display: flex;
   flex-direction: row;
@@ -16,10 +28,10 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-38xl) var(--padding-55xl) var(--padding-222xl) var(--padding-56xl);
-  gap: var(--gap-16xl);
+  align-items: center; 
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
   min-width: 259px;
   max-width: 100%;
   text-align: center;
@@ -28,89 +40,45 @@
   font-family: var(--font-poppins);
 }
 
-.frame-child21 {
-  width: 345px;
-  height: 668px;
-  position: relative;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.25));
-  border: 1px solid var(--content-contentprimary);
-  box-sizing: border-box;
-  display: none;
-  max-width: 100%;
-}
-
-.frame-child22 {
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50%;
-  background-color: var(--color-gainsboro-100);
-  z-index: 1;
-}
-
 .ellipse-container {
-  align-self: stretch;
-  height: 149px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xl) 0 var(--padding-lgi);
-  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.surbhi1 {
-  font-weight: 600;
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hi-im-surbhi-container1 {
   margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: inherit;
-  z-index: 1;
-  font-family: inherit;
+  font-size: 24px;
+  font-weight: 100;
+  color: black;
+  text-align: center;
+}
+
+.surbhi1 {
+  font-weight: 600;
+  text-align: center;
 }
 
 .designation3 {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-xl);
-  z-index: 2;
-}
-
-.hi-im-surbhi-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 var(--padding-23xl);
-}
-
-.paragraph18 {
-  flex: 1;
-  position: relative;
-  z-index: 1;
+  font-size: 18px;
+  margin-top: 0px;
+  color: black;
+  text-align: center;
 }
 
 .paragraph-container {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 0 var(--padding-12xs);
-  font-size: var(--font-size-xl);
-}
-
-.filled22,
-.filled23 {
-  width: 16px;
-  height: 16px;
-  position: relative;
-  display: none;
+  font-size: 15px;
+  color: var(--color-dimgray-100);
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -122,27 +90,23 @@
 
 @media screen and (max-width: 750px) {
   .hi-im-surbhi-container1 {
-    font-size: var(--font-size-5xl);
+    font-size: 1.2em;
   }
   .profile-card {
-    padding-top: var(--padding-18xl);
-    padding-bottom: var(--padding-138xl);
-    box-sizing: border-box;
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .hi-im-surbhi-container1 {
-    font-size: var(--font-size-lg);
+    font-size: 1em;
   }
   .designation3,
-  .paragraph18 {
-    font-size: var(--font-size-base);
+  .paragraph-container {
+    font-size: 0.9em;
   }
   .profile-card {
-    gap: var(--gap-mid);
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
+    gap: 10px;
+    padding: 10px;
   }
 }

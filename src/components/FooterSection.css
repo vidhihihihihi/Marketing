@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: #FF6100;
+  background: linear-gradient(to right,#ff9900, #f2b500, #5d90e4); 
   width: 100%;
 }
 
@@ -15,6 +15,8 @@
 .logo {
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .phone a, .email a {
@@ -24,18 +26,21 @@
 
 .social-icons {
   display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 .social-icons img {
   margin-top: 10px;
   width: 24px;
   height: 24px;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .important-links h3, .featured-services h3 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  color: black;
 }
 
 .important-links ul, .featured-services ul {
@@ -44,7 +49,7 @@
 }
 
 .important-links ul li, .featured-services ul li {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .important-links ul li a, .featured-services ul li a {
@@ -55,11 +60,13 @@
 .newsletter-section h3 {
   font-size: 18px;
   margin-bottom: 10px;
+  color: #000;
 }
 
 .newsletter-signup {
   display: flex;
 }
+
 
 .newsletter-signup input {
   padding: 10px;
@@ -78,6 +85,11 @@
   right: 0;
   padding: 10px;
   font-size: 14px;
+}
+
+.chevron-icon{
+  width: 10px;
+  height: 10px;
 }
 
 @media (max-width: 768px) {
