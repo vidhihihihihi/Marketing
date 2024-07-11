@@ -62,8 +62,8 @@ const ServiceCards: FunctionComponent = () => {
     { serviceText: "SEO Service", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/seo-service" },
     { serviceText: "Social Media Marketing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/social-media-marketing" },
     { serviceText: "Analytics & Tracking", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/analytics-&-tracking" },
-    { serviceText: "Web Designing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-service" },
-    { serviceText: "Web Development", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-service" },
+    { serviceText: "Web Designing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-services" },
+    { serviceText: "Web Development", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-services" },
   ];
 
   return (

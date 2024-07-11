@@ -10,6 +10,10 @@ import CareersPage from "./pages/CareersPage";
 import WriteForUs from "./pages/WriteForUs";
 import CaseStudies from "./pages/CaseStudies";
 import DigitalMarketing from "./pages/ProductPages/DigitalMarketing";
+import AnalyticsTracking from "./pages/ProductPages/Analytics&Tracking";
+import OtherServices from "./pages/ProductPages/OtherServices";
+import SocialMediaMarketing from "./pages/ProductPages/SocialMediaMarketing";
+import SEOService from "./pages/ProductPages/SEOService";
 import ContactUsPage from "./pages/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import JobOpeningPost from "./pages/JobOpeningPost";
@@ -50,6 +54,22 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/analytics-&-tracking":
+          title = "";
+          metaDescription = "";
+          break;
+      case "/other-services":
+            title = "";
+            metaDescription = "";
+            break;     
+      case "/seo-service":
+            title = "";
+            metaDescription = "";
+            break;     
+      case "/social-media-marketing":
+            title = "";
+            metaDescription = "";
+            break;          
       case "/contact-us-page":
         title = "";
         metaDescription = "";
@@ -85,6 +105,10 @@ function App() {
       <Route path="/write-for-us" element={<WriteForUs />} />
       <Route path="/case-studies" element={<CaseStudies />} />
       <Route path="/digital-marketing" element={<DigitalMarketing/>} />
+      <Route path="/analytics-&-tracking" element={<AnalyticsTracking/>} />
+      <Route path="/other-services" element={<OtherServices/>} />
+      <Route path="/seo-service" element={<SEOService/>} />
+      <Route path="/social-media-marketing" element={<SocialMediaMarketing/>} />
       <Route path="/contact-us-page" element={<ContactUsPage />} />
       <Route path="/about-us-page" element={<AboutUsPage />} />
       <Route path="/job-opening-post" element={<JobOpeningPost />} />

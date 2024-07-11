@@ -1,5 +1,5 @@
-.digital-marketing-banner {
-  background-image: url('../Banner.png');
+.product-banner {
+  background-image: url('./Banner.png');
   background-size: cover;
   background-position: center;
   padding: 80px 40px;
@@ -28,14 +28,18 @@
 }
 
 .cta-button {
-  display: flex;
-  padding: 0px 12px;
+  display: inline-block;  /* Changed from flex to inline-block */
+  padding: 10px 10px;     /* Adjusted padding for better appearance */
   background-color: #5d90e4;
   color: white;
   text-decoration: none;
   font-weight: 500;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  white-space: nowrap;    /* Ensures text stays on one line */
+  text-align: center;     /* Centers the text within the button */
+  font-size: 1rem;        /* Adjust as needed */
+  line-height: 1.5;       /* Improves vertical centering of text */
 }
 
 .cta-button:hover {

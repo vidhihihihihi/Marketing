@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import DigitalMarketingBanner from "../../components/ProductPages/DigitalMarketingBanner";
+import ProductBanner from "../../components/ProductPages/ProductBanner";
 import AboutCards from "../../components/AboutUsPage/AboutCards";
 import MainHeader from "../../components/MainHeader";
 import BottomBanner from "../../components/ProductPages/BottomBanner";
@@ -9,7 +9,7 @@ import Testimonials from "../../components/LandingPage/Testimonials";
 import FAQ from "../../components/LandingPage/Questions";
 import LandingForm from "../../components/LandingPage/LandingForm";
 import FooterSection from "../../components/FooterSection";
-import "./DigitalMarketing.css";
+import "./product.css";
 
 
 const DigitalMarketing: FunctionComponent = () => {
@@ -22,9 +22,12 @@ const DigitalMarketing: FunctionComponent = () => {
 
 
   return (
-    <div className="digital-marketing">
+    <div className="product-main">
       <MainHeader />
-      <DigitalMarketingBanner />
+      <ProductBanner 
+        heading="DIGITAL MARKETING SERVICE"
+        subheading="You've put in the effort to build your business. We're committed to helping your business thrive online."
+      />
       <AboutCards sectionHeading="Our Digital Marketing Services" cards={digitalMarketingCardsData} />
       <LandingCta />
       <ClientGlimpse/>
