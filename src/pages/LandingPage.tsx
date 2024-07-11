@@ -27,11 +27,11 @@ const LandingPage: FunctionComponent = () => {
       <section className="container-wrapper">
         <div className="container">
           <div className="content">
-            <h2 className="topic">{`Why Marketing DNA? `}</h2>
+            <h2 className="topic">Why Marketing DNA?</h2>
           </div>
           <Details />
           <div className="content">
-            <h2 className="topic">{`What Our Clients Says `}</h2>
+            <h2 className="topic">What Our Clients Says</h2>
           </div>
           <Testimonials/>
           <FAQ/>

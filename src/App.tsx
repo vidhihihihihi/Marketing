@@ -9,7 +9,7 @@ import LandingPage from "./pages/LandingPage";
 import CareersPage from "./pages/CareersPage";
 import WriteForUs from "./pages/WriteForUs";
 import CaseStudies from "./pages/CaseStudies";
-import ProductPage from "./pages/ProductPage";
+import DigitalMarketing from "./pages/ProductPages/DigitalMarketing";
 import ContactUsPage from "./pages/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import JobOpeningPost from "./pages/JobOpeningPost";
@@ -46,7 +46,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/product-page":
+      case "/digital-marketing":
         title = "";
         metaDescription = "";
         break;
@@ -84,7 +84,7 @@ function App() {
       <Route path="/careers-page" element={<CareersPage />} />
       <Route path="/write-for-us" element={<WriteForUs />} />
       <Route path="/case-studies" element={<CaseStudies />} />
-      <Route path="/product-page" element={<ProductPage />} />
+      <Route path="/digital-marketing" element={<DigitalMarketing/>} />
       <Route path="/contact-us-page" element={<ContactUsPage />} />
       <Route path="/about-us-page" element={<AboutUsPage />} />
       <Route path="/job-opening-post" element={<JobOpeningPost />} />

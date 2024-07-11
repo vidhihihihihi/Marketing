@@ -1,0 +1,63 @@
+.digital-marketing-banner {
+  background-image: url('../Banner.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  min-height: 501px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 623px;
+  text-align: left;
+}
+
+.banner-heading {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.banner-subheading {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.cta-button {
+  display: flex;
+  padding: 0px 12px;
+  background-color: #5d90e4;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .digital-marketing-banner {
+    padding: 60px 20px;
+  }
+
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .banner-subheading {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-heading {
+    font-size: 1.5rem;
+  }
+}

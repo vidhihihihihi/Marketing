@@ -7,37 +7,27 @@ import icon5 from "./icon5.png";
 import icon6 from "./icon6.png";
 import "./AboutCards.css";
 
+const icons = [icon1, icon2, icon3, icon4, icon5, icon6];
+
 export type AboutCardType = {
   className?: string;
   qualityText: string;
   paragraphText: string;
+  iconIndex: number; // New property to specify which icon to use
+};
+
+export type AboutCardsProps = {
+  sectionHeading: string;
+  cards: AboutCardType[];
 };
 
 const AboutCard: FunctionComponent<AboutCardType> = ({
   className = "",
   qualityText,
   paragraphText,
+  iconIndex,
 }) => {
-  const getIconForQuality = (qualityText: string): string => {
-    switch (qualityText.toLowerCase()) {
-      case "innovative solutions":
-        return icon1;
-      case "custom strategies":
-        return icon2;
-      case "data-driven approach":
-        return icon3;
-      case "targeted campaigns":
-        return icon4;
-      case "roi optimization":
-        return icon5;
-      case "brand enhancement":
-        return icon6;
-      default:
-        return ""; 
-    }
-  };
-
-  const iconSrc = getIconForQuality(qualityText);
+  const iconSrc = icons[iconIndex % icons.length]; // Use modulo to ensure we always have a valid icon
 
   return (
     <div className={`quality-card ${className}`}>
@@ -52,25 +42,17 @@ const AboutCard: FunctionComponent<AboutCardType> = ({
   );
 };
 
-const AboutCards: FunctionComponent = () => {
-  const AboutCardsData: AboutCardType[] = [
-    { qualityText: "Innovative Solutions", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-    { qualityText: "Custom Strategies", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-    { qualityText: "Data-Driven Approach", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-    { qualityText: "Targeted Campaigns", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-    { qualityText: "ROI Optimization", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-    { qualityText: "Brand Enhancement", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough," },
-  ];
-
+const AboutCards: FunctionComponent<AboutCardsProps> = ({ sectionHeading, cards }) => {
   return (
     <div className="quality-cards-container">
-      <h2 className="section-heading">Why Choose Marketing DNA?</h2>
+      <h2 className="section-heading">{sectionHeading}</h2>
       <div className="quality-cards">
-        {AboutCardsData.map((card, index) => (
+        {cards.map((card, index) => (
           <AboutCard
             key={index}
             qualityText={card.qualityText}
             paragraphText={card.paragraphText}
+            iconIndex={card.iconIndex}
           />
         ))}
       </div>

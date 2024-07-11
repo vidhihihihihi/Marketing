@@ -4,20 +4,21 @@
     align-items: left;
     justify-content: center;
     padding: 0px 0px 0px 350px;
+    margin-bottom: 50px;
     
 }
 
 .arrows {
     display: flex;
     justify-content: space-between;
-    width: 100px;
+    width: 50px;
     margin-bottom: 20px;
+    
 }
 
 .arrows button {
     background-color: #ff9900;
     border-radius: 100%;
-    border-color: #ff9900;
     font-size: 24px;
     cursor: pointer;
 }

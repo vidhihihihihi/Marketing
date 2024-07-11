@@ -1,0 +1,29 @@
+.digital-marketing {
+  display: flex;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  gap: 0 0;
+}
+
+.topic2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  color: black;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+}
+@media screen and (max-width: 800px) {
+  .digital-marketing {
+    gap: var(--gap-lgi);
+  }
+}
