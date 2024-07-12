@@ -16,6 +16,9 @@ import SocialMediaMarketing from "./pages/ProductPages/SocialMediaMarketing";
 import SEOService from "./pages/ProductPages/SEOService";
 import ContactUsPage from "./pages/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage";
+import Blogs from './pages/Blogs';
+import FAQs from "./pages/FAQs";
+
 
 function App() {
   const action = useNavigationType();
@@ -77,6 +80,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/blogs":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/faqs":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -106,6 +117,8 @@ function App() {
       <Route path="/social-media-marketing" element={<SocialMediaMarketing/>} />
       <Route path="/contact-us-page" element={<ContactUsPage />} />
       <Route path="/about-us-page" element={<AboutUsPage />} />
+      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/faqs" element={<FAQs />} />
     </Routes>
   );
 }

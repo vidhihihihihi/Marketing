@@ -15,21 +15,21 @@ const blogPosts: BlogPost[] = [
     image: '/path/to/blog1-image.jpg',
     title: 'Blog Post 1 Title',
     excerpt: 'This is the first few lines of blog post 1. It gives a brief overview of the content...',
-    url: '/blog/post-1'
+    url: '/blog/1'
   },
   {
     id: '2',
     image: '/path/to/blog2-image.jpg',
     title: 'Blog Post 2 Title',
     excerpt: 'Here are the opening lines of blog post 2. It introduces the main topic discussed...',
-    url: '/blog/post-2'
+    url: '/blog/2'
   },
   {
     id: '3',
     image: '/path/to/blog3-image.jpg',
     title: 'Blog Post 3 Title',
     excerpt: 'Blog post 3 begins with these lines. They set the stage for the rest of the article...',
-    url: '/blog/post-3'
+    url: '/blog/3'
   }
 ];
 

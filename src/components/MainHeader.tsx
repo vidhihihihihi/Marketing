@@ -65,7 +65,7 @@ const menuItems: DropdownMenuProps[] = [
   { defaultValue: "SEO Service", width: "15%", iconSrc: "/chevron-icon.svg", menuItems: ["All SEO Services","On Page SEO","Off Page SEO","Technical SEO service","Local SEO Service","Content Marketing"] },
   { defaultValue: "Social Media Marketing", width: "18%", iconSrc: "/chevron-icon.svg", menuItems: ["Facebook Marketing","LinkedIn Marketing","Instagram Marketing","YouTube Marketing"] },
   { defaultValue: "Analytics & Tracking", width: "18%", iconSrc: "/chevron-icon.svg", menuItems: ["All Analytics & Tracking Services","Conversion Rate Optimisation","Google Analytics Setup & Tracking"] },
-  { defaultValue: "Other Services", width: "15%", iconSrc: "/chevron-icon.svg", menuItems: ["Web Designing","UI/UX Designing","Logo Designing"] },
+  { defaultValue: "Other Services", width: "15%", iconSrc: "/chevron-icon.svg", menuItems: ["Web Designing","UI/UX Designing","Logo Designing","Web/App Development"] },
 ];
 
 export default MainHeader;
