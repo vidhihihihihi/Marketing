@@ -26,7 +26,7 @@ const LandingWhoWeAre: FunctionComponent<LandingWhoWeAreType> = ({
         <div className="about-details">
           <div className="frame-container">
             <div className="frame-inner" />
-            <div className="who-were">Who We’re</div>
+            <div className="who-were">Who We Are</div>
           </div>
           <div className="about-paragraph">
             <div className={`about-paragraph-content ${isExpanded ? 'expanded' : ''}`}>

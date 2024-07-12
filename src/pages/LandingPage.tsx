@@ -22,10 +22,7 @@ const LandingPage: FunctionComponent = () => {
            <ServiceCards />
         </div>
       </section>
-
-      <LandingCta />
-      <section className="container-wrapper">
-        <div className="container">
+      <LandingCta />      
           <div className="content">
             <h2 className="topic">Why Marketing DNA?</h2>
           </div>
@@ -34,9 +31,7 @@ const LandingPage: FunctionComponent = () => {
             <h2 className="topic">What Our Clients Says</h2>
           </div>
           <Testimonials/>
-          <FAQ/>
-        </div>
-      </section>      
+          <FAQ/>   
       <LandingForm />
       <FooterSection />
     </div>

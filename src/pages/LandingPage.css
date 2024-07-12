@@ -28,37 +28,18 @@
 }
 
 .content {
-  align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0 var(--padding-xl);
   display: flex;
-  align-items: flex-start;
-}
-.container {
-  width: 1156px;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 38.9px;
+  align-items: center;
   max-width: 100%;
+  width: 100%;
   display: flex;
-  align-items: flex-start;
+  font-size: 24px;
+  font-family: var(--font-inter);
+  margin-bottom: 20px;
 }
 
-.container-wrapper {
-  width: 1358px;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 80.6px;
-  max-width: 100%;
-  font-size: var(--font-size-11xl);
- 
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
-  text-align: left;
-  font-family: var(--font-inter);
-}
 .landing-page-draft-3 {
   width: 100%;
   position: relative;

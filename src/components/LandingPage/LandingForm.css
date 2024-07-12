@@ -58,17 +58,36 @@ form {
 
 .checkbox-group {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap:0px;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px 20px;
   margin-top: 10px;
+  width: 100%;
+  justify-content: start;
 }
 
 .checkbox-group label {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  gap: 0px;
+  gap: 5px;
+  white-space: nowrap;
 }
 
+.checkbox-group input[type="checkbox"] {
+  margin: 0;
+  justify-self: end;
+}
+
+.checkbox-group span {
+  font-size: 14px;
+  justify-self: start;
+}
+
+.form-group.full-width .checkbox-group {
+  justify-content: start;
+  align-items: start;
+}
 button {
   background-color: #000;
   color: #fff;

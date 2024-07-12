@@ -45,6 +45,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
             <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="careers-page">Career</a></li>
             <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="faqs-page">FAQs</a></li>
             <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="blogs-page">Blogs</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="case-studies-page">CaseStudies</a></li>
           </ul>
         </div>
         <div className="featured-services">

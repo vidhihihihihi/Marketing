@@ -15,26 +15,16 @@ const LandingForm: React.FC = () => {
           <input type="tel" placeholder="Phone*" required />
         </div>
         <div className="form-group full-width">
-          <label>What Are You Looking For</label>
-          <div className="checkbox-group">
-            <label>
-              <input type="checkbox" /> Digital Marketing
-            </label>
-            <label>
-              <input type="checkbox" /> SEO Service
-            </label>
-            <label>
-              <input type="checkbox" /> Social Media Marketing
-            </label>
-            <label>
-              <input type="checkbox" /> Analytics & Tracking
-            </label>
-            <label>
-              <input type="checkbox" /> Services
-            </label>
-            
-          </div>
-        </div>
+  <label>What Are You Looking For</label>
+  <div className="checkbox-group">
+    <label><input type="checkbox" /><span>Digital Marketing</span></label>
+    <label><input type="checkbox" /><span>SEO Service</span></label>
+    <label><input type="checkbox" /><span>Social Media Marketing</span></label>
+    <label><input type="checkbox" /><span>Analytics & Tracking</span></label>
+    <label><input type="checkbox" /><span>Services</span></label>
+    <label><input type="checkbox" /><span>Other</span></label>
+  </div>
+</div>
         <div className="form-group full-width">
           <textarea placeholder="Message*" required></textarea>
         </div>

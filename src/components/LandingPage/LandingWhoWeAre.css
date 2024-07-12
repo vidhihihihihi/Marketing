@@ -18,23 +18,23 @@
   top: 0;
   left: 0;
   border-radius: 0 var(--br-31xl) var(--br-31xl) var(--br-31xl);
-  background-color: #ff9900;
+  background-color: #f4b04c;
   width: 206px;
 }
 
 .who-were {
   position: absolute;
-  top: 12px;
-  left: 22px;
-  font-weight: 600;
-  width: 348px;
+  top: 5px;
+  left: 10px;
+  font-weight: 500;
   color: black;
+  size: 22px;
 }
 
 .frame-container {
   position: relative;
   width: 100%;
-  height: 68px;
+  height: 50px;
   font-family: var(--font-poppins);
 }
 .about-paragraph-content {

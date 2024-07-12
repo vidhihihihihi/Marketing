@@ -18,18 +18,22 @@ export type DetailsType = {
 
 const Details: FunctionComponent<DetailsType> = ({ className = "" }) => {
   return (
-    <div className={`details ${className}`}>
-      <div className="grid">
-        <div className="column">
-          <img
-            src={graphic}
-            alt="Marketing related graphic"
-            className="marketing-image"
-          />
+    <div className={`details-new ${className}`}>
+      <div className="image-container">
+        <img
+          src={graphic}
+          alt="Marketing related graphic"
+          className="marketing-image"
+        />
+      </div>
+      <div className="qualitynew-content-container">
+        <div className="columnnew">
           <Item items={itemsData.slice(0, 3)} />
         </div>
+        <div className="columnnew">
+          <Item items={itemsData.slice(3)} />
+        </div>
       </div>
-      <Item items={itemsData.slice(3)} propPadding="24px 0px 0px" />
     </div>
   );
 };

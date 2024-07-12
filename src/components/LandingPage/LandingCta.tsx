@@ -25,7 +25,7 @@ const LandingCta: FunctionComponent<LandingCtaType> = ({
             sx={{
               textTransform: "none",
               color: "#000",
-              fontSize: "15px",
+              fontSize: "20px",
               background: "#5d90e4",
               borderRadius: "20px",
               "&:hover": { background: "#f9f9f9" },

@@ -16,7 +16,6 @@ import SocialMediaMarketing from "./pages/ProductPages/SocialMediaMarketing";
 import SEOService from "./pages/ProductPages/SEOService";
 import ContactUsPage from "./pages/ContactUsPage";
 import AboutUsPage from "./pages/AboutUsPage";
-import JobOpeningPost from "./pages/JobOpeningPost";
 
 function App() {
   const action = useNavigationType();
@@ -78,10 +77,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/job-opening-post":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -111,7 +106,6 @@ function App() {
       <Route path="/social-media-marketing" element={<SocialMediaMarketing/>} />
       <Route path="/contact-us-page" element={<ContactUsPage />} />
       <Route path="/about-us-page" element={<AboutUsPage />} />
-      <Route path="/job-opening-post" element={<JobOpeningPost />} />
     </Routes>
   );
 }
