@@ -97,6 +97,7 @@
   font-size: var(--font-size-11xl);
   color: var(--color-dimgray-100);
   font-family: var(--font-inter);
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1275px) {

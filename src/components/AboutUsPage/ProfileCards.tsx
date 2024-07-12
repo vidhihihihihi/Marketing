@@ -1,6 +1,9 @@
 import { FunctionComponent } from "react";
 import "./ProfileCards.css";
-import Member1 from "./member1.jpg"; // Add images for each team member
+import Member1 from "./member1.jpeg";
+import Member2 from "./member2.jpeg";
+import Member3 from "./member3.jpeg";
+import Member4 from "./member4.png"; // Add images for each team member
 
 
 type TeamMemberProps = {
@@ -37,27 +40,27 @@ const ProfileCards: FunctionComponent = () => {
       <div className="profile-cards-row">
         <ProfileCard
           image={Member1}
-          name="Surbhi"
-          designation="Designation"
-          description="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. "
+          name="Nurain Lakhani"
+          designation="Strategic Business Consultant"
+          description="Transforming challenges into opportunities with tailored solutions and industry-leading insights."
         />
         <ProfileCard
-          image={Member1}
-          name="John"
-          designation="Designation"
-          description="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. "
+          image={Member2}
+          name="Shanta Narang"
+          designation="Senior SEO Strategist"
+          description="With 15 Years of Expertise, Driving organic growth through data-driven strategies and cutting-edge optimization techniques."
         />
         <ProfileCard
-          image={Member1}
-          name="Doe"
-          designation="Designation"
-          description="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. "
+          image={Member3}
+          name="Surbhi Sagar"
+          designation="Visionary Founder and Chief Executive Officer"
+          description="Steering the company's strategic direction and fostering a culture of innovation and excellence."
         />
         <ProfileCard
-          image={Member1}
-          name="Jane"
-          designation="Designation"
-          description="Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. "
+          image={Member4}
+          name="Vidhi Gupta"
+          designation="Chief Technology Officer"
+          description="Spearheading technological advancements and ensuring robust, scalable solutions for our clients. "
         />
       </div>
     </section>

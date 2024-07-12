@@ -11,12 +11,12 @@ import "./AboutUsPage.css";
 
 const AboutUsPage: FunctionComponent = () => {
   const aboutUsCardsData = [
-    { qualityText: "Innovative Solutions", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 0 },
-    { qualityText: "Custom Strategies", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 1 },
-    { qualityText: "Data-Driven Approach", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 2 },
-    { qualityText: "Targeted Campaigns", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 3 },
-    { qualityText: "ROI Optimization", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 4 },
-    { qualityText: "Brand Enhancement", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", iconIndex: 5 },
+    { qualityText: "Comprehensive Services", paragraphText: "We offer a full spectrum of digital marketing services, ensuring all your needs are met under one roof. From SEO to content creation, we provide integrated solutions that drive cohesive and impactful results.", iconIndex: 0 },
+    { qualityText: "Client-centric  Approach", paragraphText: "Your success is our priority; we take the time to understand your business and tailor our strategies accordingly. Our collaborative process ensures your voice is heard and your goals are achieved.", iconIndex: 1 },
+    { qualityText: "Transparent Process", paragraphText: "We believe in complete transparency, keeping you informed at every step of your marketing journey. Our detailed reports and open communication mean no surprises, only results.", iconIndex: 2 },
+    { qualityText: "Measurable Results ", paragraphText: "Data-driven strategies allow us to deliver tangible and trackable outcomes that contribute directly to your business growth. We focus on key performance indicators to ensure your marketing investment pays off.", iconIndex: 3 },
+    { qualityText: "Professional Commitment", paragraphText: "Our team of experts is dedicated to providing the highest level of service, professionalism, and expertise. We are committed to ongoing learning and innovation to stay ahead of industry trends and deliver cutting-edge solutions.", iconIndex: 4 },
+    { qualityText: "Guarenteed ROI", paragraphText: "We are confident in our ability to generate a positive return on your investment through strategic, results-focused marketing efforts. Our goal is to maximize your marketing budget and ensure you see significant value.", iconIndex: 5 },
   ];
   
   return (

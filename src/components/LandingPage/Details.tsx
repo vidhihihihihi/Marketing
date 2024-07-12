@@ -4,12 +4,12 @@ import graphic from "./graphic.png";
 import "./Details.css";
 
 const itemsData = [
-  { icon: "icon1", text: "Innovative Solutions" },
-  { icon: "icon2", text: "Custom Strategies" },
-  { icon: "icon3", text: "Data-Driven Approach" },
-  { icon: "icon4", text: "Targeted Campaigns" },
-  { icon: "icon5", text: "ROI Optimization" },
-  { icon: "icon6", text: "Brand Enhancement" }
+  { icon: "icon1", text: "Comprehensive Services" },
+  { icon: "icon2", text: "Client-centric Approach" },
+  { icon: "icon3", text: "Transparent Process" },
+  { icon: "icon4", text: "Measurable Results" },
+  { icon: "icon5", text: "Professional Commitment" },
+  { icon: "icon6", text: "Guarenteed ROI" }
 ];
 
 export type DetailsType = {
