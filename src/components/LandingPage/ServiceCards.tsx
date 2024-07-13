@@ -58,12 +58,12 @@ const ServiceCard: FunctionComponent<ServiceCardType> = ({
 
 const ServiceCards: FunctionComponent = () => {
   const serviceCardsData: ServiceCardType[] = [
-    { serviceText: "Digital Marketing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/digital-marketing" },
-    { serviceText: "SEO Service", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/seo-service" },
-    { serviceText: "Social Media Marketing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/social-media-marketing" },
-    { serviceText: "Analytics & Tracking", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/analytics-&-tracking" },
-    { serviceText: "Web Designing", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-services" },
-    { serviceText: "Web Development", paragraphText: "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough,", linkTo: "/other-services" },
+    { serviceText: "Digital Marketing", paragraphText: "Our comprehensive digital marketing services encompass everything from strategy development to execution, ensuring your brand reaches its full potential online. We create integrated campaigns that drive traffic, increase engagement, and boost conversions.", linkTo: "/digital-marketing" },
+    { serviceText: "SEO Service", paragraphText: "Boost your online visibility and attract more organic traffic with our expert SEO services. We optimize your website to rank higher in search engine results, ensuring your target audience finds you easily.", linkTo: "/seo-service" },
+    { serviceText: "Social Media Marketing", paragraphText: "Engage with your audience and build a strong online presence through our targeted social media marketing strategies. We create compelling content and manage your social media profiles to enhance brand awareness and foster customer loyalty.", linkTo: "/social-media-marketing" },
+    { serviceText: "Analytics & Tracking", paragraphText: "Make data-driven decisions with our comprehensive analytics and tracking services. We provide detailed insights into your marketing performance, helping you understand what works and how to optimize your strategies for better results.", linkTo: "/analytics-&-tracking" },
+    { serviceText: "Web Designing", paragraphText: "Create a stunning and user-friendly online presence with our professional web design services. We design visually appealing and intuitive websites that reflect your brand’s identity and provide an exceptional user experience.", linkTo: "/other-services" },
+    { serviceText: "Web Development", paragraphText: "Bring your website to life with our robust web development services. We build functional, responsive, and scalable websites using the latest technologies to ensure optimal performance and security.", linkTo: "/other-services" },
   ];
 
   return (

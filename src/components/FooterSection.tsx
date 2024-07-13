@@ -51,12 +51,12 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
         <div className="featured-services">
           <h3>Featured Services</h3>
           <ul>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">Search Engines Optimisation</a></li>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">Social Media Advertising</a></li>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">Content Marketing</a></li>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">Web Development</a></li>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">UI/UX Designing</a></li>
-            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="#">Google Ads</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="seo-service">Search Engines Optimisation</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="social-media-marketing">Social Media Advertising</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="seo-service">Content Marketing</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="other-services">Web Development</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="other-services">UI/UX Designing</a></li>
+            <li><img src={chevron_right} alt="Chevron Right" className="chevron-icon"/><a href="analytics-&-tracking">Google Ads</a></li>
           </ul>
         </div>
         <div className="newsletter-section">

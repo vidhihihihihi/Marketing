@@ -1,73 +1,74 @@
 .cta-background-parent-contact {
-    display: flex;
-    align-items: right;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding: var(--padding-36xl) var(--padding-36xl) var(--padding-172xl);
-    position: relative;
-    gap: var(--gap-xs);
-    min-width: 100%;
-    text-align: right;
-    background-image: url('./Banner.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-36xl);
+  position: relative;
+  min-width: 100%;
+  text-align: right;
+  background-image: url('./Banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.cutting-edge {
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: right;
+  z-index: 1;
+  color: black;
+}
+
+.youve-put {
+  max-width: 100%;
+  position: relative;
+  font-size: 24px;
+  line-height: 31.2px;
+  text-align: right;
+  z-index: 1;
+  color: #000;
+}
+
+.cta-content-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-10xs);
+  z-index: 1;
+}
+
+@media screen and (max-width: 750px) {
   .cutting-edge {
-    margin: 0;
-    width: 432px;
-    position: relative;
-    font-size: inherit;
-    line-height: 40px;
-    font-weight: 600;
-    font-family: inherit;
-    display: flex;
-    align-items: right;
-    max-width: 100%;
-    z-index: 1;
-    color: black;
-  }
-  
-  .youve-put {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-xl);
-    line-height: 31.2px;
-    z-index: 1;
-    color: #000;
-  }
-  
-  .cta-content-contact {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    gap: var(--gap-10xs);
-    z-index: 1;
-  }
-  
- 
-  @media screen and (max-width: 750px) {
-    .cutting-edge-digital-marketing {
       font-size: var(--font-size-5xl);
       line-height: 32px;
-    }
-    .cta-background-parent {
-      padding: var(--padding-35xl) var(--padding-8xl) var(--padding-105xl);
-      box-sizing: border-box;
-    }
   }
-  
-  @media screen and (max-width: 450px) {
-    .cutting-edge-digital-marketing {
+  .cta-background-parent-contact {
+      padding: var(--padding-35xl) var(--padding-8xl);
+  }
+  .cta-content-contact {
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cutting-edge {
       font-size: var(--font-size-lg);
       line-height: 24px;
-    }
-    .youve-put-in {
+  }
+  .youve-put {
       font-size: var(--font-size-base);
       line-height: 25px;
-    }
   }
-  
+  .cta-content-contact {
+      width: 100%;
+  }
+}

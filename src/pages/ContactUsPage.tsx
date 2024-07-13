@@ -14,7 +14,7 @@ const ContactUsPage: FunctionComponent = () => {
       <div className="content-container">
         <div className="left-side">
           <h2>Message Us</h2>
-          <p>Your one-liner goes here.</p>
+          <p>We are at your service.</p>
         </div>
         <div className="right-side">
           <LandingForm />

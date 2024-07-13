@@ -11,8 +11,8 @@ interface ProductBannerProps {
 const ProductBanner: FunctionComponent<ProductBannerProps> = ({
   heading,
   subheading,
-  ctaText = "Book Consultation",  // Default value
-  ctaLink = "/contact-us-page"    // Default value
+  ctaText = "Book Consultation",  
+  ctaLink = "/contact-us-page"    
 }) => {
   return (
     <div className="product-banner">

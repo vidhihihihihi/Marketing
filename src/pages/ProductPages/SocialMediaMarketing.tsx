@@ -14,10 +14,10 @@ import "./product.css";
 
 const SocialMediaMarketing: FunctionComponent = () => {
   const SocialMediaMarketingCardsData = [
-    { qualityText: "Facebook Marketing", paragraphText: "Engage your audience across all major social platforms.", iconIndex: 1 },
-    { qualityText: "LinkedIn Marketing", paragraphText: "Create compelling content that drives traffic and conversions.", iconIndex: 2 },
-    { qualityText: "Instagram Marketing", paragraphText: "Maximize your ROI with targeted pay-per-click campaigns.", iconIndex: 3 },
-    { qualityText: "Youtube Marketing", paragraphText: "Build customer relationships with personalized email strategies.", iconIndex: 4 },    
+    { qualityText: "Facebook Marketing", paragraphText: "Connect with your audience on Facebook and boost your brand with our expert marketing. Drive engagement and conversions with our targeted Facebook marketing strategies.", iconIndex: 1 },
+    { qualityText: "LinkedIn Marketing", paragraphText: "Enhance your professional network and brand presence with our LinkedIn marketing. Generate quality leads and build relationships with our LinkedIn marketing services.", iconIndex: 2 },
+    { qualityText: "Instagram Marketing", paragraphText: "Boost your brand's visual appeal and engagement with our Instagram marketing. Leverage Instagram's platform to grow your audience and drive sales with our strategies.", iconIndex: 3 },
+    { qualityText: "Youtube Marketing", paragraphText: "Expand your reach and engage your audience with our YouTube marketing services. Create impactful video content and grow your channel with our YouTube marketing.", iconIndex: 4 },    
   ];
 
 
@@ -25,8 +25,8 @@ const SocialMediaMarketing: FunctionComponent = () => {
     <div className="product-main">
       <MainHeader />
       <ProductBanner 
-        heading="SOCIAL MEDIA SERVICES"
-        subheading="You've put in the effort to build your business. We're committed to helping your business thrive online."
+        heading="Engage and Grow with Social Media Marketing"
+        subheading="Build a strong online presence and connect with your audience."
       />
       <AboutCards sectionHeading="Our Social Media Marketing Services" cards={SocialMediaMarketingCardsData} />
       <LandingCta />

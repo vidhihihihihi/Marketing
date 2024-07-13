@@ -52,9 +52,8 @@ const MainHeader: React.FC<{ className?: string }> = ({ className = "" }) => {
           <DropdownMenu key={index} {...item} />
         ))}
       </nav>
-      <div className="cta-container">
+      <div className="cta-container" onClick={() => navigate("/contact-us-page")}>
         <div className="cta-text">Get Free Audit Report</div>
-        <a href="tel:+918088698016" className="phone-number">+918088698016</a>
       </div>
     </header>
   );

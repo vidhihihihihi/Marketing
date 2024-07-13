@@ -14,11 +14,12 @@ import "./product.css";
 
 const SEOService: FunctionComponent = () => {
   const SEOServiceCardsData = [
-    { qualityText: "On Page SEO", paragraphText: "Engage your audience across all major social platforms.", iconIndex: 1 },
-    { qualityText: "Off Page SEO", paragraphText: "Create compelling content that drives traffic and conversions.", iconIndex: 2 },
-    { qualityText: "Local SEO Service", paragraphText: "Maximize your ROI with targeted pay-per-click campaigns.", iconIndex: 3 },
-    { qualityText: "Technical SEO Service", paragraphText: "Build customer relationships with personalized email strategies.", iconIndex: 4 }, 
-    { qualityText: "Content Marketing", paragraphText: "Build customer relationships with personalized email strategies.", iconIndex: 0 },    
+    { qualityText: "On Page SEO", paragraphText: "Enhance your website's content and structure with our on-page SEO services. Boost your search engine rankings with our meticulous on-page SEO strategies.", iconIndex: 1 },
+    { qualityText: "Off Page SEO", paragraphText: "Strengthen your online presence with our effective off-page SEO techniques.Increase your website's authority and backlinks with our off-page SEO services.", iconIndex: 2 },
+    { qualityText: "Local SEO Service", paragraphText: "Attract more local customers with our specialized local SEO services. Improve your local search rankings and drive foot traffic with our local SEO strategies.", iconIndex: 3 },
+    { qualityText: "Technical SEO Service", paragraphText: "Optimize your website's technical aspects for better performance with our technical SEO. Ensure your site is search-engine friendly with our technical SEO services.", iconIndex: 4 }, 
+    { qualityText: "Content Marketing", paragraphText: "Engage and educate your audience with our compelling content marketing. Build brand authority and drive traffic with our strategic content marketing services.", iconIndex: 0 },
+    { qualityText: "All SEO Services", paragraphText: "Improve your search engine rankings with our all-inclusive SEO services. Optimize your website for better visibility and traffic with our comprehensive SEO.", iconIndex: 5 },    
   ];
 
 
@@ -26,8 +27,8 @@ const SEOService: FunctionComponent = () => {
     <div className="product-main">
       <MainHeader />
       <ProductBanner 
-        heading="SEO SERVICES"
-        subheading="You've put in the effort to build your business. We're committed to helping your business thrive online."
+        heading="Boost Your Visibility with Expert SEO Services"
+        subheading="Elevate your search rankings and attract organic traffic."
       />
       <AboutCards sectionHeading="Our SEO Services" cards={SEOServiceCardsData} />
       <LandingCta />

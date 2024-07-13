@@ -2,8 +2,8 @@
   background-image: url('./Banner.png');
   background-size: cover;
   background-position: center;
-  padding: 80px 40px;
-  min-height: 501px;
+  padding: 40px 40px;
+  min-height: 400px;
   display: flex;
   align-items: center;
 }
@@ -22,14 +22,14 @@
 
 .banner-subheading {
   font-size: 1.2rem;
-  line-height: 1.5;
   margin-bottom: 10px;
+  width: 100%;
   color: #555;
 }
 
 .cta-button {
-  display: inline-block;  /* Changed from flex to inline-block */
-  padding: 10px 10px;     /* Adjusted padding for better appearance */
+  display: flexbox;
+  padding: 10px 5px;    
   background-color: #5d90e4;
   color: white;
   text-decoration: none;

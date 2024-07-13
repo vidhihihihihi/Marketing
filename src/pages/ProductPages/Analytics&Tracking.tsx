@@ -14,8 +14,8 @@ import "./product.css";
 
 const AnalyticsTracking: FunctionComponent = () => {
   const AnalyticsTrackingCardsData = [
-    { qualityText: "Conversion Rate Optimization", paragraphText: "Engage your audience across all major social platforms.", iconIndex: 1 },
-    { qualityText: "Google Analytics Setup and Tracking", paragraphText: "Create compelling content that drives traffic and conversions.", iconIndex: 2 }, 
+    { qualityText: "Conversion Rate Optimization", paragraphText: "Maximize your website's performance and increase conversions with our CRO services. Turn visitors into customers with our effective conversion rate optimization strategies.", iconIndex: 1 },
+    { qualityText: "Google Analytics Setup and Tracking", paragraphText: "Gain insights into your website's performance with our Google Analytics setup and tracking. Make data-driven decisions with our comprehensive Google Analytics services.", iconIndex: 2 }, 
   ];
 
 
@@ -23,8 +23,8 @@ const AnalyticsTracking: FunctionComponent = () => {
     <div className="product-main">
       <MainHeader />
       <ProductBanner 
-        heading="ANALYTICAL SERVICE"
-        subheading="You've put in the effort to build your business. We're committed to helping your business thrive online."
+        heading="Make Informed Decisions with Analytics & Tracking"
+        subheading="Gain valuable insights to optimize your marketing strategies."
       />
       <AboutCards sectionHeading="Our Analytical Services" cards={AnalyticsTrackingCardsData} />
       <LandingCta />

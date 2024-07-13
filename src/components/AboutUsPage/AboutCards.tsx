@@ -43,10 +43,15 @@ const AboutCard: FunctionComponent<AboutCardType> = ({
 };
 
 const AboutCards: FunctionComponent<AboutCardsProps> = ({ sectionHeading, cards }) => {
+  // Determine grid layout based on number of cards
+  const cardCount = cards.length;
+  const gridTemplateColumns = cardCount === 1 ? "1fr" : cardCount === 2 ? "1fr 1fr" : cardCount === 3 ? "1fr 1fr 1fr" : cardCount === 4 ? "1fr 1fr" : "1fr 1fr 1fr";
+  const gridTemplateRows = cardCount > 3 ? "repeat(2, auto)" : "auto";
+
   return (
     <div className="quality-cards-container">
       <h2 className="section-heading">{sectionHeading}</h2>
-      <div className="quality-cards">
+      <div className="quality-cards" style={{ gridTemplateColumns, gridTemplateRows }}>
         {cards.map((card, index) => (
           <AboutCard
             key={index}

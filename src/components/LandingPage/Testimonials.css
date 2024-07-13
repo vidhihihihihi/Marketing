@@ -1,81 +1,73 @@
 .testimonials-container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    padding: 0px 0px 0px 350px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     margin-bottom: 50px;
-    
 }
 
 .arrows {
     display: flex;
     justify-content: space-between;
-    width: 50px;
     margin-bottom: 20px;
-    
 }
 
 .arrows button {
     background-color: #ff9900;
-    border-radius: 100%;
-    font-size: 24px;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .testimonial-box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 500px;
-    height: 300px;
+    background-color: #ffffff;
     border-radius: 10px;
-    
-    
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    width: 200px;
-    font-size: 16px;
-    text-align: center;
-    background-color: #f2b500;
-    padding: 10px;
-    border-radius: 10px;
-    color:#000;
+.testimonial-box img {
+    width: 40%;
+    object-fit: cover;
+    height: 350px;
 }
 
-.testimonial-photo img {
-    width: 250px;
-    height: 300px;
-    background: transparent;
-}
-
-.testimonial-photo {
-    margin: 0 20px;
+.testimonial-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial-info {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-align: center;
     background-color: #ff9900;
-    padding: 10px;
-    
+    padding: 20px;
+    color: white;
 }
 
-.testimonial-info .name {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
-    color: black;
+.testimonial-info h3 {
+    margin: 0;
+    font-size: 24px;
 }
 
-.testimonial-info .designation {
-    font-size: 14px;
-    color: #000;
+.testimonial-info p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+.testimonial-text {
+    padding: 20px;
+    background-color: #fff;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
