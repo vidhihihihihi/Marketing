@@ -56,8 +56,6 @@
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-
-
 .about-paragraph {
   display: flex;
   flex-direction: column;
@@ -100,53 +98,25 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 1275px) {
-  .about-content {
-    flex-wrap: wrap;
-  }
-}
 
-@media screen and (max-width: 1100px) {
-  .about-intro-child {
-    flex: 1;
-  }
-
-  .about-content {
-    flex-wrap: wrap;
-  }
-}
 
 @media screen and (max-width: 750px) {
   .about-intro-child {
     min-width: 100%;
+    padding-left: 10px;
   }
 
   .who-were {
     font-size: var(--font-size-5xl);
   }
-
-  .what-we-do {
-    font-size: var(--font-size-5xl);
-    line-height: 25px;
+  .about-content-wrapper{
+    padding-left: 10px;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+  .about-intro-child {
+    flex: 1;
   }
 }
 
-@media screen and (max-width: 450px) {
-  .who-were {
-    font-size: var(--font-size-lg);
-  }
-
-  .about-paragraph-content,
-  .read-more-button {
-    font-size: var(--font-size-base);
-  }
-
-  .what-we-do {
-    font-size: var(--font-size-lg);
-    line-height: 19px;
-  }
-
-  .about-details {
-    min-width: 100%;
-  }
-}

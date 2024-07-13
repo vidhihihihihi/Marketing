@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Select, MenuItem, FormControl, SelectChangeEvent } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "./MainHeader.css";
@@ -41,16 +41,30 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ defaultValue, width, iconSr
 
 const MainHeader: React.FC<{ className?: string }> = ({ className = "" }) => {
   const navigate = useNavigate();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
 
   return (
     <header className={`main-header ${className}`}>
       <div className="logo-container" onClick={() => navigate("/")}>
         <a className="logo">Logo</a>
       </div>
-      <nav className="nav-menu">
+      <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav className={`nav-menu ${mobileMenuOpen ? 'mobile-open' : ''}`}>
         {menuItems.map((item, index) => (
           <DropdownMenu key={index} {...item} />
         ))}
+        <div className="mobile-cta-container" onClick={() => navigate("/contact-us-page")}>
+          <div className="cta-text">Get Free Audit Report</div>
+        </div>
       </nav>
       <div className="cta-container" onClick={() => navigate("/contact-us-page")}>
         <div className="cta-text">Get Free Audit Report</div>

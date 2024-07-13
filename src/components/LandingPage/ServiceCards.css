@@ -73,3 +73,58 @@
   height: 50px; /* Adjust icon size as needed */
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    font-size: 1.5em;
+  }
+
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .service-text {
+    font-size: 1.1em;
+  }
+
+  .paragraph-text {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-cards-container {
+    padding: 10px;
+  }
+
+  .section-heading {
+    font-size: 1.2em;
+  }
+
+  .service-card {
+    padding: 10px;
+  }
+
+  .service-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-text {
+    font-size: 1em;
+  }
+
+  .paragraph-text {
+    font-size: 0.75em;
+  }
+}

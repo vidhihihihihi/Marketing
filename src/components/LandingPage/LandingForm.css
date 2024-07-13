@@ -101,3 +101,64 @@ button {
 button:hover {
   background-color: #333;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    padding: 15px;
+  }
+
+  .contact-form-container h2 {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group.full-width input,
+  .form-group.full-width textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-group {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .checkbox-group label {
+    white-space: normal;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form-container {
+    padding: 10px;
+  }
+
+  .contact-form-container h2 {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+  }
+
+  .checkbox-group span {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

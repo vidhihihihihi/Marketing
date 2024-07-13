@@ -91,13 +91,38 @@
   width: 10px;
   height: 10px;
 }
-
 @media (max-width: 768px) {
-  .footer-content {
+  .footer-section {
     flex-direction: column;
+    align-items: flex-start;
   }
 
-  .logo-section, .important-links, .featured-services, .newsletter-section {
+  .logo-section {
     margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .links-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .important-links,
+  .featured-services {
+    width: 80%;
+  }
+
+  .newsletter-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
   }
 }

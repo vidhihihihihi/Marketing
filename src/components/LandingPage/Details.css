@@ -31,31 +31,38 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .details {
+  .details-new {
     flex-direction: column;
   }
+
   .image-container,
-  .content-container {
+  .qualitynew-content-container {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .content-container {
+
+  .qualitynew-content-container {
     flex-direction: row;
   }
 }
 
-@media screen and (max-width: 750px) {
-  .content-container {
+@media screen and (max-width: 768px) {
+  .qualitynew-content-container {
     flex-direction: column;
   }
-  .column {
+
+  .columnnew {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .details {
-    gap: 10px;
+  .details-new {
+    gap: 15px;
+  }
+
+  .qualitynew-content-container {
+    gap: 15px;
   }
 }

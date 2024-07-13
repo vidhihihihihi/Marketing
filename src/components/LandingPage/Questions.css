@@ -76,3 +76,65 @@
     font-size: 16px;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .faq-container {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .heading-container {
+      margin-right: 0;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .heading-container h2 {
+      font-size: 24px;
+    }
+  
+    .heading-container p {
+      font-size: 18px;
+    }
+  
+    .get-in-touch {
+      display: block;
+      margin: 0 auto 20px;
+    }
+  
+    .questions {
+      width: 100%;
+    }
+  
+    .question-button {
+      font-size: 14px;
+    }
+  
+    .answer {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .faq-container {
+      padding: 10px;
+    }
+  
+    .heading-container h2 {
+      font-size: 22px;
+    }
+  
+    .heading-container p {
+      font-size: 16px;
+    }
+  
+    .get-in-touch {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .question-button,
+    .answer {
+      font-size: 13px;
+    }
+  }

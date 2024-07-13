@@ -75,20 +75,14 @@
   .cutting-edge-digital-marketing {
     font-size: var(--font-size-5xl);
     line-height: 32px;
+    width: 50%;
   }
   .cta-background-parent {
-    padding: var(--padding-35xl) var(--padding-8xl) var(--padding-105xl);
+    padding: var(--padding-35xl) var(--padding-8xl) 0 var(--padding-105xl);
     box-sizing: border-box;
+    margin-bottom: 0;
   }
-}
-
-@media screen and (max-width: 450px) {
-  .cutting-edge-digital-marketing {
-    font-size: var(--font-size-lg);
-    line-height: 24px;
-  }
-  .youve-put-in {
-    font-size: var(--font-size-base);
-    line-height: 25px;
+  .youve-put-in{
+    width: 50%;
   }
 }

@@ -35,9 +35,55 @@
   font-family: var(--font-inter);
 }
 
+@media screen and (max-width: 768px) {
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .highlight {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .usp {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .highlights {
+    gap: 15px;
+  }
+
+  .item {
+    padding-bottom: 10px;
+  }
+}
+
 @media screen and (max-width: 450px) {
-  .usp, .usp1, .usp2 {
+  .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+
+  .highlight {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .usp {
     font-size: var(--font-size-mid);
-    line-height: 25px;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+
+  .highlights {
+    gap: 10px;
+  }
+
+  .item {
+    padding-bottom: 5px;
   }
 }

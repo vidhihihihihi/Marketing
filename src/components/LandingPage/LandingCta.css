@@ -37,29 +37,42 @@
   font-family: var(--font-inter);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
   .banner {
-    gap: var(--gap-68xl);
-    padding-left: var(--padding-250xl);
+    padding: 20px 10px;
   }
-}
 
-@media screen and (max-width: 450px) {
   .cta-banner {
-    font-size: var(--font-size-mid);
-    line-height: 25px;
-  }
-  
-  .button {
-    padding: 0 var(--padding-xl);
+    font-size: 20px;
+    line-height: 1.3;
   }
 
-  .banner {
-    gap: var(--gap-25xl);
-    padding-left: var(--padding-115xl);
+  .button {
+    padding-top: 15px;
   }
 
   .banner-wrapper {
-    padding-bottom: var(--padding-12xl);
+    padding: 0 15px 30px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+    padding: 15px 10px;
+  }
+
+  .cta-banner {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .button {
+    padding-top: 10px;
+  }
+
+  .banner-wrapper {
+    padding: 0 10px 20px;
+    font-size: 14px;
   }
 }

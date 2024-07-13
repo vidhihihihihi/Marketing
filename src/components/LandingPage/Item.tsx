@@ -31,9 +31,9 @@ const Item: FunctionComponent<ItemType> = ({ className = "", propPadding, items 
           <div key={index} className="list">
             <div className="highlight">
               <img src={iconMap[item.icon]} alt={`Icon ${index + 1}`} className="icon" />
-              <div className="container2">
+
                 <div className="usp">{item.text}</div>
-              </div>
+
             </div>
           </div>
         ))}
