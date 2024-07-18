@@ -68,3 +68,45 @@
     margin-top: 20px;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .content-container {
+      padding: 10px;
+    }
+  
+    .contact-columns {
+      flex-direction: column; /* Stack columns vertically on small screens */
+    }
+  
+    .left-column, .right-column {
+      max-width: 100%; /* Full width on small screens */
+    }
+  
+    .contact-item, .social-media, .business-hours {
+      margin: 15px 0;
+    }
+  
+    .contact-item img.icon,
+    .social-media img.icon,
+    .social-icons img.icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .content-container {
+      padding: 5px;
+    }
+  
+    .contact-item, .social-media, .business-hours {
+      margin: 10px 0;
+    }
+  
+    .contact-item img.icon,
+    .social-media img.icon,
+    .social-icons img.icon {
+      width: 25px;
+      height: 25px;
+    }
+  }

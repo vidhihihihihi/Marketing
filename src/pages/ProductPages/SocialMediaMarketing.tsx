@@ -20,6 +20,15 @@ const SocialMediaMarketing: FunctionComponent = () => {
     { qualityText: "Youtube Marketing", paragraphText: "Expand your reach and engage your audience with our YouTube marketing services. Create impactful video content and grow your channel with our YouTube marketing.", iconIndex: 4 },    
   ];
 
+  const AnalyticsQuestions = [
+    { question: 'What Is Social Media Marketing?', answer: 'The product dimensions are 10" x 8" x 6".' },
+    { question: 'What Are The Benefits Of Social Media Marketing Services?', answer: 'Yes, this product is available in red, blue, and green.' },
+    { question: 'How Often Will I Get Reports?', answer: 'This product comes with a 1-year limited warranty.' },
+    { question: 'What SMM Package Should I Choose?', answer: 'The product dimensions are 10" x 8" x 6".' },
+    { question: 'How Can I Trust Marketing DNA?', answer: 'Yes, this product is available in red, blue, and green.' },
+    { question: 'What Details Do I Have to Provide?', answer: 'This product comes with a 1-year limited warranty.' },
+  ];
+
 
   return (
     <div className="product-main">
@@ -34,7 +43,13 @@ const SocialMediaMarketing: FunctionComponent = () => {
       <BottomBanner /> 
             <h2 className="topic2">What Our Clients Says</h2>      
       <Testimonials />
-      <FAQ/>
+      <FAQ 
+        questionsAndAnswers={AnalyticsQuestions}
+        title="Frequently Asked Questions"
+        subtitle="Have more questions? We’d be happy to answer them!"
+        contactButtonText="Get in touch"
+        contactButtonLink="/contact-us-page"
+        />
       <LandingForm />
       <FooterSection />
     </div>

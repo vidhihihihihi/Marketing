@@ -1,16 +1,16 @@
 .quality-cards-container {
-  text-align: center;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 .section-heading {
-  margin-bottom: 20px;
-  font-size: 2em;
-  color: #333;
-  font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    font-weight: 600;
 }
 
 .quality-cards {
@@ -22,53 +22,77 @@
 }
 
 .quality-card {
-  background: #fff;
-  padding: 40px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 250px;
-  width: 100%;
-  transition: transform 0.2s ease-in-out; /* Optional: Add hover effect */
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .icon-placeholder {
-  width: 50px;
-  height: 50px;
-  background-color: #ddd;
-  border-radius: 10px;
-  margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .text-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quality-text {
-  font-weight: bold;
-  margin-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .paragraph-text {
-  font-size: 0.9em;
-  color: #000;
+    font-size: 0.9em;
+    color: #000;
 }
 
 .quality-icon {
-  width: 50px; /* Adjust icon size as needed */
-  height: 50px; /* Adjust icon size as needed */
-  margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.grid-1 { grid-template-columns: 1fr; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
+.grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+.grid-5 { grid-template-columns: 1fr 1fr 1fr; }
+.grid-6 { grid-template-columns: 1fr 1fr 1fr; }
+
+/* Tablet and smaller laptops */
+@media screen and (max-width: 1024px) {
+  .grid-3, .grid-4, .grid-5, .grid-6 { grid-template-columns: 1fr 1fr; }
+}
+
+/* Phones */
+@media screen and (max-width: 768px) {
+  .grid-1 { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .grid-4, .grid-5, .grid-6 { grid-template-columns: 1fr 1fr; }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+  .quality-cards {
+    grid-template-columns: 1fr !important;
+  }
 }

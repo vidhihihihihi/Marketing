@@ -22,6 +22,14 @@ const SEOService: FunctionComponent = () => {
     { qualityText: "All SEO Services", paragraphText: "Improve your search engine rankings with our all-inclusive SEO services. Optimize your website for better visibility and traffic with our comprehensive SEO.", iconIndex: 5 },    
   ];
 
+  const AnalyticsQuestions = [
+    { question: 'What is SEO and why is it important for my business?', answer: 'The product dimensions are 10" x 8" x 6".' },
+    { question: 'How long does it take to see results from SEO services?', answer: 'Yes, this product is available in red, blue, and green.' },
+    { question: 'What is included in an SEO audit by Marketing DNA ?', answer: 'This product comes with a 1-year limited warranty.' },
+    { question: 'How does Marketing DNA  Technologies approach keyword research?', answer: 'The product dimensions are 10" x 8" x 6".' },
+    { question: 'Can I track the progress of my SEO campaign?', answer: 'Yes, this product is available in red, blue, and green.' },
+  ];
+
 
   return (
     <div className="product-main">
@@ -36,7 +44,13 @@ const SEOService: FunctionComponent = () => {
       <BottomBanner /> 
             <h2 className="topic2">What Our Clients Says</h2>      
       <Testimonials />
-      <FAQ/>
+      <FAQ 
+        questionsAndAnswers={AnalyticsQuestions}
+        title="Frequently Asked Questions"
+        subtitle="Have more questions? We’d be happy to answer them!"
+        contactButtonText="Get in touch"
+        contactButtonLink="/contact-us-page"
+        />
       <LandingForm />
       <FooterSection />
     </div>

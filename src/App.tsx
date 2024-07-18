@@ -119,6 +119,7 @@ function App() {
       <Route path="/about-us-page" element={<AboutUsPage />} />
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/faqs" element={<FAQs />} />
+
     </Routes>
   );
 }

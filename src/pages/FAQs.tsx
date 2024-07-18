@@ -4,7 +4,7 @@ import FooterSection from '../components/FooterSection';
 import './FAQs.css';
 
 interface FAQ {
-  question: string;
+  question: string; 
   answer: string;
 }
 

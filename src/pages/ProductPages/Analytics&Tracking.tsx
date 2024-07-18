@@ -18,6 +18,15 @@ const AnalyticsTracking: FunctionComponent = () => {
     { qualityText: "Google Analytics Setup and Tracking", paragraphText: "Gain insights into your website's performance with our Google Analytics setup and tracking. Make data-driven decisions with our comprehensive Google Analytics services.", iconIndex: 2 }, 
   ];
 
+    const AnalyticsQuestions = [
+      { question: 'What is digital marketing?', answer: 'The product dimensions are 10" x 8" x 6".' },
+      { question: 'How digital marketing help businesses promote their services and products?', answer: 'Yes, this product is available in red, blue, and green.' },
+      { question: 'What are the benefits of hiring a digital marketing company in India?', answer: 'This product comes with a 1-year limited warranty.' },
+      { question: 'How Can One Evaluate The Solutions From A Digital Marketing Company In India?', answer: 'The product dimensions are 10" x 8" x 6".' },
+      { question: 'Do I Need To Sign Any Contract While Hiring A Digital Marketing Agency?', answer: 'Yes, this product is available in red, blue, and green.' },
+      { question: 'What is brand awareness in digital marketing?', answer: 'This product comes with a 1-year limited warranty.' },
+    ];
+
 
   return (
     <div className="product-main">
@@ -32,7 +41,13 @@ const AnalyticsTracking: FunctionComponent = () => {
       <BottomBanner /> 
             <h2 className="topic2">What Our Clients Says</h2>      
       <Testimonials />
-      <FAQ/>
+      <FAQ 
+        questionsAndAnswers={AnalyticsQuestions}
+        title="Frequently Asked Questions"
+        subtitle="Have more questions? We’d be happy to answer them!"
+        contactButtonText="Get in touch"
+        contactButtonLink="/contact-us-page"
+        />
       <LandingForm />
       <FooterSection />
     </div>

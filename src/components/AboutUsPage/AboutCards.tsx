@@ -45,13 +45,26 @@ const AboutCard: FunctionComponent<AboutCardType> = ({
 const AboutCards: FunctionComponent<AboutCardsProps> = ({ sectionHeading, cards }) => {
   // Determine grid layout based on number of cards
   const cardCount = cards.length;
-  const gridTemplateColumns = cardCount === 1 ? "1fr" : cardCount === 2 ? "1fr 1fr" : cardCount === 3 ? "1fr 1fr 1fr" : cardCount === 4 ? "1fr 1fr" : "1fr 1fr 1fr";
-  const gridTemplateRows = cardCount > 3 ? "repeat(2, auto)" : "auto";
+  let gridClass = '';
+
+  if (cardCount === 1) {
+    gridClass = 'grid-1';
+  } else if (cardCount === 2) {
+    gridClass = 'grid-2';
+  } else if (cardCount === 3) {
+    gridClass = 'grid-3';
+  } else if (cardCount === 4) {
+    gridClass = 'grid-4';
+  } else if (cardCount === 5) {
+    gridClass = 'grid-5';
+  } else if (cardCount >= 6) {
+    gridClass = 'grid-6';
+  }
 
   return (
     <div className="quality-cards-container">
       <h2 className="section-heading">{sectionHeading}</h2>
-      <div className="quality-cards" style={{ gridTemplateColumns, gridTemplateRows }}>
+      <div className={`quality-cards ${gridClass}`}>
         {cards.map((card, index) => (
           <AboutCard
             key={index}

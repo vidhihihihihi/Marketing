@@ -57,8 +57,13 @@
     font-size: 1.5rem;
     text-align: center;
   }
-  .paragraph {
+  .about-paragraph {
     font-size: 0.875rem;
+    text-align: center;
+    padding-left: 55px;
+  }
+  .text-wrapper {
+    max-width: 100%;
     text-align: center;
   }
 }
@@ -68,8 +73,13 @@
     font-size: 1.25rem;
     text-align: center;
   }
-  .paragraph {
+  .about-paragraph {
     font-size: 0.75rem;
+    text-align: center;
+    padding-left: 55px;
+  }
+  .text-wrapper {
+    max-width: 100%;
     text-align: center;
   }
 }

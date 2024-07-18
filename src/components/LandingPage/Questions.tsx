@@ -1,7 +1,26 @@
 import React, { useState } from 'react';
 import './Questions.css';
 
-const FAQ: React.FC = () => {
+interface QuestionAndAnswer {
+  question: string;
+  answer: string;
+}
+
+interface FAQProps {
+  questionsAndAnswers: QuestionAndAnswer[];
+  title?: string;
+  subtitle?: string;
+  contactButtonText?: string;
+  contactButtonLink?: string;
+}
+
+const FAQ: React.FC<FAQProps> = ({
+  questionsAndAnswers,
+  title = "Frequently Asked Questions",
+  subtitle = "Have more questions? We'd be happy to answer them!",
+  contactButtonText = "Get in touch",
+  contactButtonLink = '/contact-us-page'
+}) => {
   const [openQuestion, setOpenQuestion] = useState<number | null>(null);
 
   const toggleQuestion = (index: number) => {
@@ -12,22 +31,13 @@ const FAQ: React.FC = () => {
     }
   };
 
-  const questionsAndAnswers = [
-    { question: 'What is your return policy?', answer: 'Our return policy is 30 days with a receipt.' },
-    { question: 'How do I track my order?', answer: 'You can track your order using the tracking number provided in your confirmation email.' },
-    { question: 'Do you offer customer support?', answer: 'Yes, we offer 24/7 customer support.' },
-    { question: 'What payment methods are accepted?', answer: 'We accept all major credit cards, PayPal, and Apple Pay.' },
-    { question: 'How do I cancel my order?', answer: 'You can cancel your order within 24 hours by contacting our support team.' },
-    { question: 'Do you ship internationally?', answer: 'Yes, we ship to over 100 countries worldwide.' },
-  ];
-
   return (
     <div className="faq-container">
       <div className="heading-container">
-        <h2>Frequently Asked Questions</h2>
-        <p>Have more questions? We’d be happy to answer them!</p>
-        <button className="get-in-touch" onClick={() => window.location.href = '/contact-us-page'}>
-          Get in touch
+        <h2>{title}</h2>
+        <p>{subtitle}</p>
+        <button className="get-in-touch" onClick={() => window.location.href = contactButtonLink}>
+          {contactButtonText}
         </button>
       </div>
       <div className="questions">

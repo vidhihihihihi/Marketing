@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 750px) {
   .hi-im-surbhi-container1 {
-    font-size: 1.2em;
+    font-size: 22px;
   }
   .profile-card {
     padding: 10px;
@@ -99,11 +99,11 @@
 
 @media screen and (max-width: 450px) {
   .hi-im-surbhi-container1 {
-    font-size: 1em;
+    font-size: 22px;
   }
   .designation3,
   .paragraph-container {
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .profile-card {
     gap: 10px;
