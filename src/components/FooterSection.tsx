@@ -34,7 +34,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
             <a href="https://www.linkedin.com/company/digital-marketing-in-dna/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin}/>
             </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer">
             <img src={twitter}/>
             </a>
           </div>
