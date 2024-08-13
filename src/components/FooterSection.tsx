@@ -4,7 +4,8 @@ import facebook from "./Assets/facebook.png";
 import twitter from "./Assets/twitter.png";
 import instagram from "./Assets/instagram.png";
 import linkedin from "./Assets/linkedin.png";
-import chevron_right from "./Assets/chevron_right.png"
+import chevron_right from "./Assets/chevron_right.png";
+import companylogo from "./main_logo.png";
 
 export type FooterSectionType = {
   className?: string;
@@ -14,21 +15,23 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
   return (
     <footer className={`footer-section ${className}`}>
         <div className="logo-section">
-          <div className="logo"onClick={() => window.location.href = "/"}>Logo</div>
+        <div className="logo" onClick={() => window.location.href = "/"}>
+          <img src={companylogo} alt="Company Logo" />
+        </div>
             <div className="phone">
               <a href="tel:+918088698016">+91 8088698016</a>
             </div>
             <div className="email">
-              <a href="mailto:assist@marketingdna.in">assist@marketingdna.in</a>
+              <a href="mailto:info@marketingdna.in">info@marketingdna.in</a>
             </div>
           <div className="social-icons">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/marketingdnaindia/" target="_blank" rel="noopener noreferrer">
             <img src={instagram}/>
           </a>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <img src={facebook}/>
             </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/digital-marketing-in-dna/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin}/>
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

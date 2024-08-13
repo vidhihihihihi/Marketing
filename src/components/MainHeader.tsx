@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Select, MenuItem, FormControl, SelectChangeEvent } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import companylogo from "./main_logo.png";
 import "./MainHeader.css";
 
 interface DropdownMenuProps {
@@ -51,7 +52,7 @@ const MainHeader: React.FC<{ className?: string }> = ({ className = "" }) => {
   return (
     <header className={`main-header ${className}`}>
       <div className="logo-container" onClick={() => navigate("/")}>
-        <a className="logo">Logo</a>
+      <img src={companylogo} alt="Company Logo" />
       </div>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         <div></div>

@@ -20,7 +20,13 @@
     display: flex;
     transition: transform 0.1s linear;
   }
-  
+  .logo {
+    cursor: pointer;
+  }
+  .logo-container img {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
   .logo-item {
     flex: 0 0 16.666%; /* 6 logos visible at a time */
     padding: 0 10px;
@@ -28,7 +34,7 @@
   }
   
   .logo-image {
-    width: 100%;
+    width: 60%;
     height: 80px; /* Fixed height for smaller logos */
     object-fit: contain;
   }

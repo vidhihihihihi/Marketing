@@ -13,10 +13,11 @@
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
   cursor: pointer;
+}
+.logo img {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .phone a, .email a {
