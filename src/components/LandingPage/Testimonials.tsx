@@ -5,13 +5,13 @@ import photo2 from './photo2.jpeg';
 
 const testimonials = [
     {
-        photo: photo1, 
+        photo: photo2, 
         testimonial: "Partnering with Marketing DNA has been one of the best decisions for our business. Their expertise in digital marketing and SEO has dramatically increased our online visibility, bringing in a steady stream of quality leads. Their team is professional, responsive, and truly understands our industry. We've seen a significant boost in our search engine rankings and overall web traffic since we started working with them.",
         name: 'Client 1',
         designation: 'Founder of Simco Steel',
     },
     {
-        photo: photo2, 
+        photo: photo1, 
         testimonial: "Marketing DNA has transformed our online presence and helped us reach new heights. Their social media marketing and web design services have been exceptional, resulting in increased engagement and a more professional and user-friendly website. The team's attention to detail and commitment to our success is evident in every project they undertake.",
         name: 'Client 2',
         designation: 'Founder of Mesco Storage System',
