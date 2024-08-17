@@ -38,7 +38,9 @@ const FAQ: React.FC<FAQProps> = ({
         <h2>{title}</h2>
         <p>{subtitle}</p>
         <Link to={contactButtonLink} className="get-in-touch">
-          {contactButtonText}
+          <button className="get-in-touch-button">
+            {contactButtonText}
+          </button>
         </Link>
       </div>
       <div className="questions">
