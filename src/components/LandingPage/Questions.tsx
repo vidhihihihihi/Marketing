@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Questions.css';
 
 interface QuestionAndAnswer {
@@ -36,9 +37,9 @@ const FAQ: React.FC<FAQProps> = ({
       <div className="heading-container">
         <h2>{title}</h2>
         <p>{subtitle}</p>
-        <button className="get-in-touch" onClick={() => window.location.href = contactButtonLink}>
+        <Link to={contactButtonLink} className="get-in-touch">
           {contactButtonText}
-        </button>
+        </Link>
       </div>
       <div className="questions">
         {questionsAndAnswers.map((item, index) => (
