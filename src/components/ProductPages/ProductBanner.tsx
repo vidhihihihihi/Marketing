@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import { Link } from "react-router-dom"; 
 import "./ProductBanner.css";
 
 interface ProductBannerProps {
@@ -19,9 +20,9 @@ const ProductBanner: FunctionComponent<ProductBannerProps> = ({
       <div className="banner-content">
         <h1 className="banner-heading">{heading}</h1>
         <p className="banner-subheading">{subheading}</p>
-        <a href={ctaLink} className="cta-button">
+        <Link to={ctaLink} className="cta-button">  
           {ctaText}
-        </a>
+        </Link>
       </div>
     </div>
   );

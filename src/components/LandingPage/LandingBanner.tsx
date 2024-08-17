@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import { Link } from "react-router-dom"; 
 import "./LandingBanner.css";
 
 export type LandingBannerType = {
@@ -18,9 +19,9 @@ const LandingBanner: FunctionComponent<LandingBannerType> = ({
           You've put in the effort to build your business. We're committed to
           helping your business thrive online.
         </div>
-        <a href="/contact-us-page" className="cta-button">
+        <Link to="/contact-us-page" className="cta-button">
           <div className="landing-get-in-touch">Get in touch</div>
-        </a>
+        </Link>
       </div>
     </section>
   );
