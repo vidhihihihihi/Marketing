@@ -79,7 +79,20 @@
   min-width: 368px;
 }
 
+.about-intro-video {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  padding: var(--padding-108xl);
+  box-sizing: border-box;
+}
 
+.video-container {
+  width: 100%;
+  max-width: auto; 
+  margin-right: 20px; 
+}
 .about-content {
   display: flex;
   flex-direction: row;

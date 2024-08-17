@@ -1,5 +1,6 @@
 import { FunctionComponent, useState } from "react";
 import "./LandingWhoWeAre.css";
+import whoWeAreVideo from './WhoWeAreVideo.mp4';
 
 export type LandingWhoWeAreType = {
   className?: string;
@@ -17,12 +18,16 @@ const LandingWhoWeAre: FunctionComponent<LandingWhoWeAreType> = ({
   return (
     <section className={`about-content-wrapper ${className}`}>
       <div className="about-content">
-        <textarea
-          className="about-intro-child"
-          placeholder="Video showing Who We’re"
-          rows={15}
-          cols={25}
-        />
+      <video 
+            className="about-intro-video"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={whoWeAreVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         <div className="about-details">
           <div className="frame-container">
             <div className="frame-inner" />
