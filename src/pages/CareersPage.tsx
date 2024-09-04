@@ -9,17 +9,17 @@ const CareersPage: React.FC = () => {
     {
       title: "Software Developer",
       type: "Work from office | Full time",
-      formLink: "https://forms.google.com/software-developer",
+      formLink: "https://forms.gle/8jwn42CR1CjWtWqm9",
     },
     {
       title: "UX Designer",
       type: "Remote | Full time",
-      formLink: "https://forms.google.com/ux-designer",
+      formLink: "https://forms.gle/r33xhPVHYZNQekZx9",
     },
     {
       title: "Product Manager",
       type: "Hybrid | Full time",
-      formLink: "https://forms.google.com/product-manager",
+      formLink: "https://forms.gle/U4cjxvRQUymnjUTZ6",
     },
   ];
 
@@ -86,7 +86,7 @@ const CareersPage: React.FC = () => {
       <section className="open-application">
         <h2>Can't See a Position That Suits You?</h2>
         <p>We're always looking for smart, motivated people. Send us your CV and let's have a chat. We'd love to meet you!</p>
-        <a href="https://forms.google.com/open-application" className="get-started-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://forms.gle/2rv1o6ykucUxnFYC7" className="get-started-btn" target="_blank" rel="noopener noreferrer">
           Get Started
         </a>
       </section>

@@ -67,7 +67,11 @@ const WriteForUs: FunctionComponent = () => {
               <p>Are you excited to share your insights and expertise with our audience? We would love to hear your blog post ideas! Please click below to submit your post.</p>
               <p>Once your post is published on our site, you'll be notified via email with the published link. Due to the volume of submissions, we may not be able to provide feedback to individuals that are not selected.</p>
               <p>We look forward to receiving your submission and appreciate your contribution to our website!</p>
-              <button className="click-here">Click Here</button>
+              <button className="click-here">
+              <a href="https://forms.gle/Kh4X879yD61GV6UN6" className="get-started-btn" target="_blank" rel="noopener noreferrer">
+              Click Here
+        </a></button>
+              {/* https://forms.gle/Kh4X879yD61GV6UN6 */}
             </div>
           </div>
         </div>
