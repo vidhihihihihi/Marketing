@@ -80,6 +80,7 @@
 @media (max-width: 768px) {
   .main-header {
     flex-wrap: nowrap;
+    position: relative; 
   }
 
   .logo-container {
@@ -88,19 +89,21 @@
 
   .mobile-menu-icon {
     display: flex;
+    z-index: 1100; 
+    position: relative; 
   }
 
   .nav-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100%; 
     left: 0;
     right: 0;
     background-color: #5d90e4;
     flex-direction: column;
     align-items: stretch;
     padding: 20px;
-    z-index: 1000; /* Ensure the menu appears above other content */
+    z-index: 1000; 
   }
 
   .nav-menu.mobile-open {
