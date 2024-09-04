@@ -38,7 +38,7 @@
   font-family: var(--font-poppins);
 }
 
-.about-paragraph-content {
+/* .about-paragraph-content {
   display: flex;
   max-height: 150px;
   overflow: hidden;
@@ -47,7 +47,14 @@
 
 .about-paragraph-content.expanded {
   max-height: none;
+} */
+
+.about-paragraph-content {
+  display: flex;
+  flex-direction: column; 
+  transition: max-height 0.3s ease; 
 }
+
 
 .read-more-button {
   font-weight: 600;
