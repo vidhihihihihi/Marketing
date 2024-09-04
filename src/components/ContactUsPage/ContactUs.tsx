@@ -20,18 +20,18 @@ const ContactUs: React.FC = () => {
               <img src={email} alt="Email Icon" className="icon"/>
               <h3>Email</h3>
               <div>
-                <a href="mailto:assist@marketingdna.in">assist@marketingdna.in</a>
+                <a href="mailto:info@marketingdna.in">info@marketingdna.in</a>
                 <br />
-                <a href="mailto:assist@marketingdna.in">assist@marketingdna.in</a>
+                <a href="mailto:info@marketingdna.in">info@marketingdna.in</a>
               </div>
             </div>
             <div className="contact-item">
               <img src={call} alt="Phone Icon" className="icon"/>
               <h3>Phone</h3>
               <div>
-                <a href="tel:+918088689016">+918088689016</a>
+                <a href="tel:+919304292685">+919304292685</a>
                 <br />
-                <a href="tel:+918088689016">+918088689016</a>
+                <a href="tel:+919304292685">+919304292685</a>
               </div>
             </div>
             <div className="contact-item">
@@ -63,7 +63,7 @@ const ContactUs: React.FC = () => {
             </div>
             <div className="business-hours">
               <h3>Business Hours</h3>
-              <p>Mon - Sat: 10am - 8pm</p>
+              <p>Mon - Sat: 10am - 6pm</p>
             </div>
           </div>
         </div>
