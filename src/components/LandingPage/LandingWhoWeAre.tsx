@@ -9,7 +9,7 @@ export type LandingWhoWeAreType = {
 const LandingWhoWeAre: FunctionComponent<LandingWhoWeAreType> = ({
   className = "",
 }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
 
   const toggleReadMore = () => {
     setIsExpanded(!isExpanded);

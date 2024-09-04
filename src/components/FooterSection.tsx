@@ -20,7 +20,7 @@ const FooterSection: FunctionComponent<FooterSectionType> = ({ className = "" })
           <img src={companylogo} alt="Company Logo" />
         </div>
         <div className="phone">
-          <a href="tel:+918088698016">+91 8088698016</a>
+          <a href="tel:+919304292685">+91 9304292685</a>
         </div>
         <div className="email">
           <a href="mailto:info@marketingdna.in">info@marketingdna.in</a>
